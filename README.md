@@ -8,6 +8,7 @@
 
 source ~/ros2_lyrical/install/local_setup.bash
 source /etc/profile.d/colcon_cd.sh
+export _colcon_cd_root=~/project/ROS_BEGINNING
 
 function ros_build()
 {
