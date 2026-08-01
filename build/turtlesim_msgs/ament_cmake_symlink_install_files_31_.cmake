@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/cjson/project/ROS_BEGINNING/src/ros_tutorials/turtlesim_msgs" FILES "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlesim_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")

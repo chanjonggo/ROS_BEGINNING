@@ -1,0 +1,20 @@
+{
+  "package_name": "turtlesim_msgs",
+  "output_dir": "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_type_description/turtlesim_msgs",
+  "idl_tuples": [
+    "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:action/RotateAbsolute.idl",
+    "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:msg/Color.idl",
+    "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:msg/Pose.idl",
+    "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:srv/Kill.idl",
+    "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:srv/SetPen.idl",
+    "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:srv/Spawn.idl",
+    "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:srv/TeleportAbsolute.idl",
+    "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:srv/TeleportRelative.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/home/cjson/ros2_lyrical/install/builtin_interfaces/share/builtin_interfaces/",
+    "service_msgs:/home/cjson/ros2_lyrical/install/service_msgs/share/service_msgs/",
+    "action_msgs:/home/cjson/ros2_lyrical/install/action_msgs/share/action_msgs/",
+    "unique_identifier_msgs:/home/cjson/ros2_lyrical/install/unique_identifier_msgs/share/unique_identifier_msgs/"
+  ]
+}

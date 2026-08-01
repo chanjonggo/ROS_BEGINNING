@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/cjson/project/ROS_BEGINNING/build/turtlesim/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
