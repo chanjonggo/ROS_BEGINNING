@@ -250,76 +250,76 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 SITE:STRING=DESKTOP-PG0802U
 
 //Path to a library.
-_lib:FILEPATH=/home/cjson/ros2_lyrical/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/opt/ros/lyrical/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for action_msgs.
-action_msgs_DIR:PATH=/home/cjson/ros2_lyrical/install/action_msgs/share/action_msgs/cmake
+action_msgs_DIR:PATH=/opt/ros/lyrical/share/action_msgs/cmake
 
 //The directory containing a CMake configuration file for ament_cmake.
-ament_cmake_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake/share/ament_cmake/cmake
+ament_cmake_DIR:PATH=/opt/ros/lyrical/share/ament_cmake/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_core.
-ament_cmake_core_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_core/share/ament_cmake_core/cmake
+ament_cmake_core_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_core/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_cppcheck.
-ament_cmake_cppcheck_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake
+ament_cmake_cppcheck_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_cppcheck/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_cpplint.
-ament_cmake_cpplint_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake
+ament_cmake_cpplint_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_cpplint/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_definitions.
-ament_cmake_export_definitions_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_export_definitions/share/ament_cmake_export_definitions/cmake
+ament_cmake_export_definitions_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_export_definitions/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_dependencies.
-ament_cmake_export_dependencies_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_export_dependencies/share/ament_cmake_export_dependencies/cmake
+ament_cmake_export_dependencies_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_export_dependencies/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_include_directories.
-ament_cmake_export_include_directories_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/cmake
+ament_cmake_export_include_directories_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_export_include_directories/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_libraries.
-ament_cmake_export_libraries_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_export_libraries/share/ament_cmake_export_libraries/cmake
+ament_cmake_export_libraries_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_export_libraries/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_link_flags.
-ament_cmake_export_link_flags_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_export_link_flags/share/ament_cmake_export_link_flags/cmake
+ament_cmake_export_link_flags_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_export_link_flags/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_targets.
-ament_cmake_export_targets_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_export_targets/share/ament_cmake_export_targets/cmake
+ament_cmake_export_targets_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_export_targets/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_flake8.
-ament_cmake_flake8_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_flake8/share/ament_cmake_flake8/cmake
+ament_cmake_flake8_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_flake8/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_gen_version_h.
-ament_cmake_gen_version_h_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake
+ament_cmake_gen_version_h_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_gen_version_h/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_include_directories.
-ament_cmake_include_directories_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_include_directories/share/ament_cmake_include_directories/cmake
+ament_cmake_include_directories_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_include_directories/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_libraries.
-ament_cmake_libraries_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake
+ament_cmake_libraries_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_libraries/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_mypy.
-ament_cmake_mypy_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_mypy/share/ament_cmake_mypy/cmake
+ament_cmake_mypy_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_mypy/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_pep257.
-ament_cmake_pep257_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_pep257/share/ament_cmake_pep257/cmake
+ament_cmake_pep257_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_pep257/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_python.
-ament_cmake_python_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_python/share/ament_cmake_python/cmake
+ament_cmake_python_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_python/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_ros_core.
-ament_cmake_ros_core_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_ros_core/share/ament_cmake_ros_core/cmake
+ament_cmake_ros_core_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_ros_core/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_target_dependencies.
-ament_cmake_target_dependencies_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/cmake
+ament_cmake_target_dependencies_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_target_dependencies/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_test.
-ament_cmake_test_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_test/share/ament_cmake_test/cmake
+ament_cmake_test_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_test/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_uncrustify.
-ament_cmake_uncrustify_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake
+ament_cmake_uncrustify_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_uncrustify/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_version.
-ament_cmake_version_DIR:PATH=/home/cjson/ros2_lyrical/install/ament_cmake_version/share/ament_cmake_version/cmake
+ament_cmake_version_DIR:PATH=/opt/ros/lyrical/share/ament_cmake_version/cmake
 
 //Path to a program.
 ament_cppcheck_BIN:FILEPATH=/opt/ros/lyrical/bin/ament_cppcheck
@@ -340,88 +340,88 @@ ament_pep257_BIN:FILEPATH=/opt/ros/lyrical/bin/ament_pep257
 ament_uncrustify_BIN:FILEPATH=/opt/ros/lyrical/bin/ament_uncrustify
 
 //The directory containing a CMake configuration file for builtin_interfaces.
-builtin_interfaces_DIR:PATH=/home/cjson/ros2_lyrical/install/builtin_interfaces/share/builtin_interfaces/cmake
+builtin_interfaces_DIR:PATH=/opt/ros/lyrical/share/builtin_interfaces/cmake
 
 //The directory containing a CMake configuration file for fastcdr.
-fastcdr_DIR:PATH=/home/cjson/ros2_lyrical/install/fastcdr/lib/cmake/fastcdr
+fastcdr_DIR:PATH=/opt/ros/lyrical/lib/x86_64-linux-gnu/cmake/fastcdr
 
 //The directory containing a CMake configuration file for rcpputils.
-rcpputils_DIR:PATH=/home/cjson/ros2_lyrical/install/rcpputils/share/rcpputils/cmake
+rcpputils_DIR:PATH=/opt/ros/lyrical/share/rcpputils/cmake
 
 //The directory containing a CMake configuration file for rcutils.
-rcutils_DIR:PATH=/home/cjson/ros2_lyrical/install/rcutils/share/rcutils/cmake
+rcutils_DIR:PATH=/opt/ros/lyrical/share/rcutils/cmake
 
 //The directory containing a CMake configuration file for rmw.
-rmw_DIR:PATH=/home/cjson/ros2_lyrical/install/rmw/share/rmw/cmake
+rmw_DIR:PATH=/opt/ros/lyrical/share/rmw/cmake
 
 //The directory containing a CMake configuration file for rosidl_adapter.
-rosidl_adapter_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_adapter/share/rosidl_adapter/cmake
+rosidl_adapter_DIR:PATH=/opt/ros/lyrical/share/rosidl_adapter/cmake
 
 //The directory containing a CMake configuration file for rosidl_buffer.
-rosidl_buffer_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_buffer/share/rosidl_buffer/cmake
+rosidl_buffer_DIR:PATH=/opt/ros/lyrical/share/rosidl_buffer/cmake
 
 //The directory containing a CMake configuration file for rosidl_buffer_backend.
-rosidl_buffer_backend_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_buffer_backend/share/rosidl_buffer_backend/cmake
+rosidl_buffer_backend_DIR:PATH=/opt/ros/lyrical/share/rosidl_buffer_backend/cmake
 
 //The directory containing a CMake configuration file for rosidl_cmake.
-rosidl_cmake_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_cmake/share/rosidl_cmake/cmake
+rosidl_cmake_DIR:PATH=/opt/ros/lyrical/share/rosidl_cmake/cmake
 
 //The directory containing a CMake configuration file for rosidl_core_generators.
-rosidl_core_generators_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_core_generators/share/rosidl_core_generators/cmake
+rosidl_core_generators_DIR:PATH=/opt/ros/lyrical/share/rosidl_core_generators/cmake
 
 //The directory containing a CMake configuration file for rosidl_core_runtime.
-rosidl_core_runtime_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_core_runtime/share/rosidl_core_runtime/cmake
+rosidl_core_runtime_DIR:PATH=/opt/ros/lyrical/share/rosidl_core_runtime/cmake
 
 //The directory containing a CMake configuration file for rosidl_default_generators.
-rosidl_default_generators_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_default_generators/share/rosidl_default_generators/cmake
+rosidl_default_generators_DIR:PATH=/opt/ros/lyrical/share/rosidl_default_generators/cmake
 
 //The directory containing a CMake configuration file for rosidl_dynamic_typesupport.
-rosidl_dynamic_typesupport_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_dynamic_typesupport/share/rosidl_dynamic_typesupport/cmake
+rosidl_dynamic_typesupport_DIR:PATH=/opt/ros/lyrical/share/rosidl_dynamic_typesupport/cmake
 
 //The directory containing a CMake configuration file for rosidl_generator_c.
-rosidl_generator_c_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_generator_c/share/rosidl_generator_c/cmake
+rosidl_generator_c_DIR:PATH=/opt/ros/lyrical/share/rosidl_generator_c/cmake
 
 //The directory containing a CMake configuration file for rosidl_generator_cpp.
-rosidl_generator_cpp_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake
+rosidl_generator_cpp_DIR:PATH=/opt/ros/lyrical/share/rosidl_generator_cpp/cmake
 
 //The directory containing a CMake configuration file for rosidl_generator_py.
-rosidl_generator_py_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_generator_py/share/rosidl_generator_py/cmake
+rosidl_generator_py_DIR:PATH=/opt/ros/lyrical/share/rosidl_generator_py/cmake
 
 //The directory containing a CMake configuration file for rosidl_generator_rs.
-rosidl_generator_rs_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake
+rosidl_generator_rs_DIR:PATH=/opt/ros/lyrical/share/rosidl_generator_rs/cmake
 
 //The directory containing a CMake configuration file for rosidl_generator_type_description.
-rosidl_generator_type_description_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_generator_type_description/share/rosidl_generator_type_description/cmake
+rosidl_generator_type_description_DIR:PATH=/opt/ros/lyrical/share/rosidl_generator_type_description/cmake
 
 //The directory containing a CMake configuration file for rosidl_runtime_c.
-rosidl_runtime_c_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_runtime_c/share/rosidl_runtime_c/cmake
+rosidl_runtime_c_DIR:PATH=/opt/ros/lyrical/share/rosidl_runtime_c/cmake
 
 //The directory containing a CMake configuration file for rosidl_runtime_cpp.
-rosidl_runtime_cpp_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_runtime_cpp/share/rosidl_runtime_cpp/cmake
+rosidl_runtime_cpp_DIR:PATH=/opt/ros/lyrical/share/rosidl_runtime_cpp/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_c.
-rosidl_typesupport_c_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_typesupport_c/share/rosidl_typesupport_c/cmake
+rosidl_typesupport_c_DIR:PATH=/opt/ros/lyrical/share/rosidl_typesupport_c/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_cpp.
-rosidl_typesupport_cpp_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_typesupport_cpp/share/rosidl_typesupport_cpp/cmake
+rosidl_typesupport_cpp_DIR:PATH=/opt/ros/lyrical/share/rosidl_typesupport_cpp/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_fastrtps_c.
-rosidl_typesupport_fastrtps_c_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/cmake
+rosidl_typesupport_fastrtps_c_DIR:PATH=/opt/ros/lyrical/share/rosidl_typesupport_fastrtps_c/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_fastrtps_cpp.
-rosidl_typesupport_fastrtps_cpp_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/cmake
+rosidl_typesupport_fastrtps_cpp_DIR:PATH=/opt/ros/lyrical/share/rosidl_typesupport_fastrtps_cpp/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_interface.
-rosidl_typesupport_interface_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/cmake
+rosidl_typesupport_interface_DIR:PATH=/opt/ros/lyrical/share/rosidl_typesupport_interface/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_introspection_c.
-rosidl_typesupport_introspection_c_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/cmake
+rosidl_typesupport_introspection_c_DIR:PATH=/opt/ros/lyrical/share/rosidl_typesupport_introspection_c/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_introspection_cpp.
-rosidl_typesupport_introspection_cpp_DIR:PATH=/home/cjson/ros2_lyrical/install/rosidl_typesupport_introspection_cpp/share/rosidl_typesupport_introspection_cpp/cmake
+rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/lyrical/share/rosidl_typesupport_introspection_cpp/cmake
 
 //The directory containing a CMake configuration file for service_msgs.
-service_msgs_DIR:PATH=/home/cjson/ros2_lyrical/install/service_msgs/share/service_msgs/cmake
+service_msgs_DIR:PATH=/opt/ros/lyrical/share/service_msgs/cmake
 
 //Value Computed by CMake
 turtlesim_msgs_BINARY_DIR:STATIC=/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs
@@ -433,7 +433,7 @@ turtlesim_msgs_IS_TOP_LEVEL:STATIC=ON
 turtlesim_msgs_SOURCE_DIR:STATIC=/home/cjson/project/ROS_BEGINNING/src/ros_tutorials/turtlesim_msgs
 
 //The directory containing a CMake configuration file for unique_identifier_msgs.
-unique_identifier_msgs_DIR:PATH=/home/cjson/ros2_lyrical/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake
+unique_identifier_msgs_DIR:PATH=/opt/ros/lyrical/share/unique_identifier_msgs/cmake
 
 
 ########################

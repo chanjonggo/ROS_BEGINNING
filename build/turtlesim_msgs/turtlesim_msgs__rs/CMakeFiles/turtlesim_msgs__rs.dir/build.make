@@ -76,18 +76,18 @@ include /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/turtlesim_msgs__r
 /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/turtlesim_msgs__rs/CMakeFiles/turtlesim_msgs__rs: rosidl_generator_rs/turtlesim_msgs/rust/src/action.rs
 /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/turtlesim_msgs__rs/CMakeFiles/turtlesim_msgs__rs: rosidl_generator_rs/turtlesim_msgs/rust/src/action/rmw.rs
 
-rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /home/cjson/ros2_lyrical/install/rosidl_generator_rs/lib/rosidl_generator_rs/rosidl_generator_rs
-rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /home/cjson/ros2_lyrical/install/rosidl_generator_rs/lib/python3.14/site-packages/rosidl_generator_rs/__init__.py
-rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /home/cjson/ros2_lyrical/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/action.rs.em
-rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /home/cjson/ros2_lyrical/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/action/rmw.rs.em
-rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /home/cjson/ros2_lyrical/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/msg.rs.em
-rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /home/cjson/ros2_lyrical/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/msg/rmw.rs.em
-rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /home/cjson/ros2_lyrical/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/srv.rs.em
-rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /home/cjson/ros2_lyrical/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/srv/rmw.rs.em
-rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /home/cjson/ros2_lyrical/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/templates/msg_idiomatic.rs.em
-rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /home/cjson/ros2_lyrical/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/templates/msg_rmw.rs.em
-rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /home/cjson/ros2_lyrical/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/templates/srv_idiomatic.rs.em
-rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /home/cjson/ros2_lyrical/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/templates/srv_rmw.rs.em
+rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /opt/ros/lyrical/lib/rosidl_generator_rs/rosidl_generator_rs
+rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /opt/ros/lyrical/lib/python3.14/site-packages/rosidl_generator_rs/__init__.py
+rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /opt/ros/lyrical/share/rosidl_generator_rs/resource/action.rs.em
+rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /opt/ros/lyrical/share/rosidl_generator_rs/resource/action/rmw.rs.em
+rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /opt/ros/lyrical/share/rosidl_generator_rs/resource/msg.rs.em
+rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /opt/ros/lyrical/share/rosidl_generator_rs/resource/msg/rmw.rs.em
+rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /opt/ros/lyrical/share/rosidl_generator_rs/resource/srv.rs.em
+rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /opt/ros/lyrical/share/rosidl_generator_rs/resource/srv/rmw.rs.em
+rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /opt/ros/lyrical/share/rosidl_generator_rs/resource/templates/msg_idiomatic.rs.em
+rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /opt/ros/lyrical/share/rosidl_generator_rs/resource/templates/msg_rmw.rs.em
+rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /opt/ros/lyrical/share/rosidl_generator_rs/resource/templates/srv_idiomatic.rs.em
+rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /opt/ros/lyrical/share/rosidl_generator_rs/resource/templates/srv_rmw.rs.em
 rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: rosidl_adapter/turtlesim_msgs/action/RotateAbsolute.idl
 rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: rosidl_adapter/turtlesim_msgs/msg/Color.idl
 rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: rosidl_adapter/turtlesim_msgs/msg/Pose.idl
@@ -104,16 +104,16 @@ rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: rosidl_adapter/turtlesim_msg
 rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: rosidl_adapter/turtlesim_msgs/srv/Spawn.idl
 rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: rosidl_adapter/turtlesim_msgs/srv/TeleportAbsolute.idl
 rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: rosidl_adapter/turtlesim_msgs/srv/TeleportRelative.idl
-rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /home/cjson/ros2_lyrical/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
-rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /home/cjson/ros2_lyrical/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
-rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /home/cjson/ros2_lyrical/install/service_msgs/share/service_msgs/msg/ServiceEventInfo.idl
-rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /home/cjson/ros2_lyrical/install/action_msgs/share/action_msgs/msg/GoalInfo.idl
-rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /home/cjson/ros2_lyrical/install/action_msgs/share/action_msgs/msg/GoalStatus.idl
-rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /home/cjson/ros2_lyrical/install/action_msgs/share/action_msgs/msg/GoalStatusArray.idl
-rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /home/cjson/ros2_lyrical/install/action_msgs/share/action_msgs/srv/CancelGoal.idl
-rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /home/cjson/ros2_lyrical/install/unique_identifier_msgs/share/unique_identifier_msgs/msg/UUID.idl
+rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /opt/ros/lyrical/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /opt/ros/lyrical/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /opt/ros/lyrical/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /opt/ros/lyrical/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /opt/ros/lyrical/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /opt/ros/lyrical/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /opt/ros/lyrical/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs: /opt/ros/lyrical/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Rust code for ROS interfaces"
-	cd /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/turtlesim_msgs__rs && /usr/bin/python3 /home/cjson/ros2_lyrical/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs --generator-arguments-file /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_rs__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	cd /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/turtlesim_msgs__rs && /usr/bin/python3 /opt/ros/lyrical/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs --generator-arguments-file /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_rs__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_rs/turtlesim_msgs/rust/build.rs: rosidl_generator_rs/turtlesim_msgs/rust/src/lib.rs
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/turtlesim_msgs/rust/build.rs

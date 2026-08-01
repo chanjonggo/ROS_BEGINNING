@@ -6,17 +6,14 @@
 #include "turtlesim_msgs/srv/detail/teleport_relative__struct.hpp"
 
 #include <cstddef>
-#include <cstdio>
 #include <limits>
 #include <stdexcept>
 #include <string>
-#include "rcutils/logging_macros.h"
 #include "rosidl_typesupport_cpp/message_type_support.hpp"
 #include "rosidl_typesupport_fastrtps_cpp/identifier.hpp"
 #include "rosidl_typesupport_fastrtps_cpp/message_type_support.h"
 #include "rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp"
 #include "rosidl_typesupport_fastrtps_cpp/serialization_helpers.hpp"
-#include "turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h"
 #include "fastcdr/Cdr.h"
 
 
@@ -62,54 +59,6 @@ cdr_deserialize(
   return true;
 }  // NOLINT(readability/fn_size)
 
-// Endpoint-aware serialization. Always emitted so parent messages can recurse
-// through non-Buffer intermediate message types.
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-cdr_serialize_with_endpoint(
-  const turtlesim_msgs::srv::TeleportRelative_Request & ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  (void)ros_message;
-  (void)endpoint_info;
-  (void)serialization_context;
-  try {
-    // Member: linear
-    cdr << ros_message.linear;
-    // Member: angular
-    cdr << ros_message.angular;
-  } catch (const std::exception & e) {
-    RCUTILS_LOG_ERROR_NAMED(
-      "turtlesim_msgs.typesupport_fastrtps_cpp",
-      "cdr_serialize_with_endpoint failed: %s", e.what());
-    return false;
-  }
-  return true;
-}
-
-// Endpoint-aware deserialization. Always emitted so parent messages can recurse
-// through non-Buffer intermediate message types.
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-cdr_deserialize_with_endpoint(
-  eprosima::fastcdr::Cdr & cdr,
-  turtlesim_msgs::srv::TeleportRelative_Request & ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  (void)ros_message;
-  (void)endpoint_info;
-  (void)serialization_context;
-  // Member: linear
-  cdr >> ros_message.linear;
-
-  // Member: angular
-  cdr >> ros_message.angular;
-
-  return true;
-}  // NOLINT(readability/fn_size)
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
@@ -332,38 +281,6 @@ static size_t _TeleportRelative_Request__max_serialized_size(char & bounds_info)
   return ret_val;
 }
 
-// Endpoint-aware serialization wrapper
-static bool _TeleportRelative_Request__cdr_serialize_with_endpoint(
-  const void * untyped_ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  auto typed_message =
-    static_cast<const turtlesim_msgs::srv::TeleportRelative_Request *>(
-    untyped_ros_message);
-  return cdr_serialize_with_endpoint(*typed_message, cdr, endpoint_info, serialization_context);
-}
-
-// Endpoint-aware deserialization wrapper
-static bool _TeleportRelative_Request__cdr_deserialize_with_endpoint(
-  eprosima::fastcdr::Cdr & cdr,
-  void * untyped_ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  auto typed_message =
-    static_cast<turtlesim_msgs::srv::TeleportRelative_Request *>(
-    untyped_ros_message);
-  return cdr_deserialize_with_endpoint(cdr, *typed_message, endpoint_info, serialization_context);
-}
-
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-has_buffer_fields_TeleportRelative_Request()
-{
-  return has_buffer_fields_turtlesim_msgs__srv__TeleportRelative_Request();
-}
 
 static message_type_support_callbacks_t _TeleportRelative_Request__callbacks = {
   "turtlesim_msgs::srv",
@@ -373,9 +290,9 @@ static message_type_support_callbacks_t _TeleportRelative_Request__callbacks = {
   _TeleportRelative_Request__get_serialized_size,
   _TeleportRelative_Request__max_serialized_size,
   nullptr,
-  has_buffer_fields_TeleportRelative_Request(),
-  _TeleportRelative_Request__cdr_serialize_with_endpoint,
-  _TeleportRelative_Request__cdr_deserialize_with_endpoint
+  false,
+  nullptr,
+  nullptr
 };
 
 static rosidl_message_type_support_t _TeleportRelative_Request__handle = {
@@ -423,15 +340,11 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cp
 // already included above
 // #include <cstddef>
 // already included above
-// #include <cstdio>
-// already included above
 // #include <limits>
 // already included above
 // #include <stdexcept>
 // already included above
 // #include <string>
-// already included above
-// #include "rcutils/logging_macros.h"
 // already included above
 // #include "rosidl_typesupport_cpp/message_type_support.hpp"
 // already included above
@@ -442,8 +355,6 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cp
 // #include "rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp"
 // already included above
 // #include "rosidl_typesupport_fastrtps_cpp/serialization_helpers.hpp"
-// already included above
-// #include "turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h"
 // already included above
 // #include "fastcdr/Cdr.h"
 
@@ -484,49 +395,6 @@ cdr_deserialize(
   return true;
 }  // NOLINT(readability/fn_size)
 
-// Endpoint-aware serialization. Always emitted so parent messages can recurse
-// through non-Buffer intermediate message types.
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-cdr_serialize_with_endpoint(
-  const turtlesim_msgs::srv::TeleportRelative_Response & ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  (void)ros_message;
-  (void)endpoint_info;
-  (void)serialization_context;
-  try {
-    // Member: structure_needs_at_least_one_member
-    cdr << ros_message.structure_needs_at_least_one_member;
-  } catch (const std::exception & e) {
-    RCUTILS_LOG_ERROR_NAMED(
-      "turtlesim_msgs.typesupport_fastrtps_cpp",
-      "cdr_serialize_with_endpoint failed: %s", e.what());
-    return false;
-  }
-  return true;
-}
-
-// Endpoint-aware deserialization. Always emitted so parent messages can recurse
-// through non-Buffer intermediate message types.
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-cdr_deserialize_with_endpoint(
-  eprosima::fastcdr::Cdr & cdr,
-  turtlesim_msgs::srv::TeleportRelative_Response & ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  (void)ros_message;
-  (void)endpoint_info;
-  (void)serialization_context;
-  // Member: structure_needs_at_least_one_member
-  cdr >> ros_message.structure_needs_at_least_one_member;
-
-  return true;
-}  // NOLINT(readability/fn_size)
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
@@ -715,38 +583,6 @@ static size_t _TeleportRelative_Response__max_serialized_size(char & bounds_info
   return ret_val;
 }
 
-// Endpoint-aware serialization wrapper
-static bool _TeleportRelative_Response__cdr_serialize_with_endpoint(
-  const void * untyped_ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  auto typed_message =
-    static_cast<const turtlesim_msgs::srv::TeleportRelative_Response *>(
-    untyped_ros_message);
-  return cdr_serialize_with_endpoint(*typed_message, cdr, endpoint_info, serialization_context);
-}
-
-// Endpoint-aware deserialization wrapper
-static bool _TeleportRelative_Response__cdr_deserialize_with_endpoint(
-  eprosima::fastcdr::Cdr & cdr,
-  void * untyped_ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  auto typed_message =
-    static_cast<turtlesim_msgs::srv::TeleportRelative_Response *>(
-    untyped_ros_message);
-  return cdr_deserialize_with_endpoint(cdr, *typed_message, endpoint_info, serialization_context);
-}
-
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-has_buffer_fields_TeleportRelative_Response()
-{
-  return has_buffer_fields_turtlesim_msgs__srv__TeleportRelative_Response();
-}
 
 static message_type_support_callbacks_t _TeleportRelative_Response__callbacks = {
   "turtlesim_msgs::srv",
@@ -756,9 +592,9 @@ static message_type_support_callbacks_t _TeleportRelative_Response__callbacks = 
   _TeleportRelative_Response__get_serialized_size,
   _TeleportRelative_Response__max_serialized_size,
   nullptr,
-  has_buffer_fields_TeleportRelative_Response(),
-  _TeleportRelative_Response__cdr_serialize_with_endpoint,
-  _TeleportRelative_Response__cdr_deserialize_with_endpoint
+  false,
+  nullptr,
+  nullptr
 };
 
 static rosidl_message_type_support_t _TeleportRelative_Response__handle = {
@@ -806,15 +642,11 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cp
 // already included above
 // #include <cstddef>
 // already included above
-// #include <cstdio>
-// already included above
 // #include <limits>
 // already included above
 // #include <stdexcept>
 // already included above
 // #include <string>
-// already included above
-// #include "rcutils/logging_macros.h"
 // already included above
 // #include "rosidl_typesupport_cpp/message_type_support.hpp"
 // already included above
@@ -825,8 +657,6 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cp
 // #include "rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp"
 // already included above
 // #include "rosidl_typesupport_fastrtps_cpp/serialization_helpers.hpp"
-// already included above
-// #include "turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h"
 // already included above
 // #include "fastcdr/Cdr.h"
 
@@ -863,16 +693,6 @@ max_serialized_size_key_ServiceEventInfo(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);
-bool cdr_serialize_with_endpoint(
-  const service_msgs::msg::ServiceEventInfo &,
-  eprosima::fastcdr::Cdr &,
-  const rmw_topic_endpoint_info_t &,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext &);
-bool cdr_deserialize_with_endpoint(
-  eprosima::fastcdr::Cdr &,
-  service_msgs::msg::ServiceEventInfo &,
-  const rmw_topic_endpoint_info_t &,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext &);
 }  // namespace typesupport_fastrtps_cpp
 }  // namespace msg
 }  // namespace service_msgs
@@ -991,137 +811,6 @@ cdr_deserialize(
   return true;
 }  // NOLINT(readability/fn_size)
 
-// Endpoint-aware serialization. Always emitted so parent messages can recurse
-// through non-Buffer intermediate message types.
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-cdr_serialize_with_endpoint(
-  const turtlesim_msgs::srv::TeleportRelative_Event & ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  (void)ros_message;
-  (void)endpoint_info;
-  (void)serialization_context;
-  try {
-    // Member: info
-    service_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize_with_endpoint(
-      ros_message.info,
-      cdr, endpoint_info, serialization_context);
-    // Member: request
-    {
-      size_t size = ros_message.request.size();
-      if (size > 1) {
-        throw std::runtime_error("array size exceeds upper bound");
-      }
-      cdr << static_cast<uint32_t>(size);
-      for (size_t i = 0; i < size; i++) {
-        turtlesim_msgs::srv::typesupport_fastrtps_cpp::cdr_serialize_with_endpoint(
-          ros_message.request[i],
-          cdr, endpoint_info, serialization_context);
-      }
-    }
-    // Member: response
-    {
-      size_t size = ros_message.response.size();
-      if (size > 1) {
-        throw std::runtime_error("array size exceeds upper bound");
-      }
-      cdr << static_cast<uint32_t>(size);
-      for (size_t i = 0; i < size; i++) {
-        turtlesim_msgs::srv::typesupport_fastrtps_cpp::cdr_serialize_with_endpoint(
-          ros_message.response[i],
-          cdr, endpoint_info, serialization_context);
-      }
-    }
-  } catch (const std::exception & e) {
-    RCUTILS_LOG_ERROR_NAMED(
-      "turtlesim_msgs.typesupport_fastrtps_cpp",
-      "cdr_serialize_with_endpoint failed: %s", e.what());
-    return false;
-  }
-  return true;
-}
-
-// Endpoint-aware deserialization. Always emitted so parent messages can recurse
-// through non-Buffer intermediate message types.
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-cdr_deserialize_with_endpoint(
-  eprosima::fastcdr::Cdr & cdr,
-  turtlesim_msgs::srv::TeleportRelative_Event & ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  (void)ros_message;
-  (void)endpoint_info;
-  (void)serialization_context;
-  // Member: info
-  service_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize_with_endpoint(
-    cdr,
-    ros_message.info,
-    endpoint_info,
-    serialization_context);
-
-  // Member: request
-  {
-    uint32_t cdrSize;
-    cdr >> cdrSize;
-    size_t size = static_cast<size_t>(cdrSize);
-
-    // Check there are at least 'size' remaining bytes in the CDR stream before resizing
-    auto old_state = cdr.get_state();
-    bool correct_size = cdr.jump(size);
-    cdr.set_state(old_state);
-    if (!correct_size) {
-      fprintf(stderr, "sequence size exceeds remaining buffer\n");
-      return false;
-    }
-
-    ros_message.request.resize(size);
-    if (size > 1) {
-      throw std::runtime_error("vector size exceeds upper bound");
-    }
-    for (size_t i = 0; i < size; i++) {
-      turtlesim_msgs::srv::typesupport_fastrtps_cpp::cdr_deserialize_with_endpoint(
-        cdr,
-        ros_message.request[i],
-        endpoint_info,
-        serialization_context);
-    }
-  }
-
-  // Member: response
-  {
-    uint32_t cdrSize;
-    cdr >> cdrSize;
-    size_t size = static_cast<size_t>(cdrSize);
-
-    // Check there are at least 'size' remaining bytes in the CDR stream before resizing
-    auto old_state = cdr.get_state();
-    bool correct_size = cdr.jump(size);
-    cdr.set_state(old_state);
-    if (!correct_size) {
-      fprintf(stderr, "sequence size exceeds remaining buffer\n");
-      return false;
-    }
-
-    ros_message.response.resize(size);
-    if (size > 1) {
-      throw std::runtime_error("vector size exceeds upper bound");
-    }
-    for (size_t i = 0; i < size; i++) {
-      turtlesim_msgs::srv::typesupport_fastrtps_cpp::cdr_deserialize_with_endpoint(
-        cdr,
-        ros_message.response[i],
-        endpoint_info,
-        serialization_context);
-    }
-  }
-
-  return true;
-}  // NOLINT(readability/fn_size)
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
@@ -1494,38 +1183,6 @@ static size_t _TeleportRelative_Event__max_serialized_size(char & bounds_info)
   return ret_val;
 }
 
-// Endpoint-aware serialization wrapper
-static bool _TeleportRelative_Event__cdr_serialize_with_endpoint(
-  const void * untyped_ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  auto typed_message =
-    static_cast<const turtlesim_msgs::srv::TeleportRelative_Event *>(
-    untyped_ros_message);
-  return cdr_serialize_with_endpoint(*typed_message, cdr, endpoint_info, serialization_context);
-}
-
-// Endpoint-aware deserialization wrapper
-static bool _TeleportRelative_Event__cdr_deserialize_with_endpoint(
-  eprosima::fastcdr::Cdr & cdr,
-  void * untyped_ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  auto typed_message =
-    static_cast<turtlesim_msgs::srv::TeleportRelative_Event *>(
-    untyped_ros_message);
-  return cdr_deserialize_with_endpoint(cdr, *typed_message, endpoint_info, serialization_context);
-}
-
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-has_buffer_fields_TeleportRelative_Event()
-{
-  return has_buffer_fields_turtlesim_msgs__srv__TeleportRelative_Event();
-}
 
 static message_type_support_callbacks_t _TeleportRelative_Event__callbacks = {
   "turtlesim_msgs::srv",
@@ -1535,9 +1192,9 @@ static message_type_support_callbacks_t _TeleportRelative_Event__callbacks = {
   _TeleportRelative_Event__get_serialized_size,
   _TeleportRelative_Event__max_serialized_size,
   nullptr,
-  has_buffer_fields_TeleportRelative_Event(),
-  _TeleportRelative_Event__cdr_serialize_with_endpoint,
-  _TeleportRelative_Event__cdr_deserialize_with_endpoint
+  false,
+  nullptr,
+  nullptr
 };
 
 static rosidl_message_type_support_t _TeleportRelative_Event__handle = {

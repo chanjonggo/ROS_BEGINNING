@@ -78,10 +78,6 @@ max_serialized_size_key_Color(
   bool & is_plain,
   size_t current_alignment);
 
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-has_buffer_fields_Color();
-
 }  // namespace typesupport_fastrtps_cpp
 
 }  // namespace msg

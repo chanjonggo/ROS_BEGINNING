@@ -55,9 +55,6 @@ size_t max_serialized_size_key_turtlesim_msgs__srv__TeleportRelative_Request(
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool has_buffer_fields_turtlesim_msgs__srv__TeleportRelative_Request();
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, turtlesim_msgs, srv, TeleportRelative_Request)();
 
@@ -121,9 +118,6 @@ size_t max_serialized_size_key_turtlesim_msgs__srv__TeleportRelative_Response(
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool has_buffer_fields_turtlesim_msgs__srv__TeleportRelative_Response();
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, turtlesim_msgs, srv, TeleportRelative_Response)();
 
@@ -185,9 +179,6 @@ size_t max_serialized_size_key_turtlesim_msgs__srv__TeleportRelative_Event(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool has_buffer_fields_turtlesim_msgs__srv__TeleportRelative_Event();
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
 const rosidl_message_type_support_t *

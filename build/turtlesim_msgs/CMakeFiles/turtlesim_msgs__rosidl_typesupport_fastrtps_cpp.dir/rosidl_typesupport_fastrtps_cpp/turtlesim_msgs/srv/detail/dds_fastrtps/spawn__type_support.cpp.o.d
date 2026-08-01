@@ -16,8 +16,8 @@ CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesuppor
  /usr/include/c++/15/pstl/pstl_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h \
  /usr/include/c++/15/bits/version.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/message_type_support_struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_description__struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -28,33 +28,21 @@ CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesuppor
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/individual_type_description__struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/string.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/primitives_sequence.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field__struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field_type__struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_source__struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_hash.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/allocator.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/macros.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/testing/fault_injection.h \
- /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/visibility_control.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/visibility_control_macros.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/types/rcutils_ret.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/sha256.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/visibility_control.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_typesupport_interface/include/rosidl_typesupport_interface/macros.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/allocator.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/macros.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/types/rcutils_ret.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/visibility_control.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/visibility_control_macros.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/sha256.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+ /opt/ros/lyrical/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_cpp/turtlesim_msgs/srv/detail/spawn__struct.hpp \
  /usr/include/c++/15/algorithm /usr/include/c++/15/bits/stl_algobase.h \
@@ -85,6 +73,8 @@ CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesuppor
  /usr/include/c++/15/bits/stl_tempbuf.h /usr/include/c++/15/cstdlib \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -136,8 +126,12 @@ CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesuppor
  /usr/include/c++/15/bits/requires_hosted.h /usr/include/c++/15/ios \
  /usr/include/c++/15/iosfwd /usr/include/c++/15/bits/stringfwd.h \
  /usr/include/c++/15/bits/postypes.h /usr/include/c++/15/cwchar \
- /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+ /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/c++/15/exception /usr/include/c++/15/bits/exception_ptr.h \
  /usr/include/c++/15/bits/cxxabi_init_exception.h \
  /usr/include/c++/15/typeinfo /usr/include/c++/15/bits/nested_exception.h \
@@ -179,6 +173,11 @@ CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesuppor
  /usr/include/c++/15/bits/basic_string.h /usr/include/c++/15/string_view \
  /usr/include/c++/15/bits/string_view.tcc \
  /usr/include/c++/15/ext/string_conversions.h /usr/include/c++/15/cstdio \
+ /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/c++/15/cerrno /usr/include/errno.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
@@ -236,21 +235,20 @@ CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesuppor
  /usr/include/c++/15/bits/stl_vector.h \
  /usr/include/c++/15/bits/stl_bvector.h \
  /usr/include/c++/15/bits/vector.tcc \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp \
+ /opt/ros/lyrical/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
  /usr/include/c++/15/utility /usr/include/c++/15/bits/stl_relops.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_buffer/include/rosidl_buffer/buffer.hpp \
+ /opt/ros/lyrical/include/rosidl_buffer/rosidl_buffer/buffer.hpp \
  /usr/include/c++/15/iterator /usr/include/c++/15/bits/stream_iterator.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_buffer/include/rosidl_buffer/buffer_impl_base.hpp \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_buffer/include/rosidl_buffer/cpu_buffer_impl.hpp \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/message_initialization.hpp \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/message_initialization.h \
- /home/cjson/ros2_lyrical/build/service_msgs/rosidl_generator_cpp/service_msgs/msg/detail/service_event_info__struct.hpp \
- /home/cjson/ros2_lyrical/build/builtin_interfaces/rosidl_generator_cpp/builtin_interfaces/msg/detail/time__struct.hpp \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/Cdr.h \
- /usr/include/c++/15/bitset /usr/include/c++/15/cassert \
- /usr/include/assert.h /usr/include/c++/15/cstring /usr/include/string.h \
- /usr/include/strings.h /usr/include/c++/15/functional \
- /usr/include/c++/15/bits/std_function.h \
+ /opt/ros/lyrical/include/rosidl_buffer/rosidl_buffer/buffer_impl_base.hpp \
+ /opt/ros/lyrical/include/rosidl_buffer/rosidl_buffer/cpu_buffer_impl.hpp \
+ /opt/ros/lyrical/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
+ /opt/ros/lyrical/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp \
+ /opt/ros/lyrical/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
+ /opt/ros/lyrical/includefastcdr/fastcdr/Cdr.h /usr/include/c++/15/bitset \
+ /usr/include/c++/15/cassert /usr/include/assert.h \
+ /usr/include/c++/15/cstring /usr/include/string.h /usr/include/strings.h \
+ /usr/include/c++/15/functional /usr/include/c++/15/bits/std_function.h \
  /usr/include/c++/15/unordered_map \
  /usr/include/c++/15/bits/unordered_map.h \
  /usr/include/c++/15/bits/hashtable.h \
@@ -260,83 +258,80 @@ CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesuppor
  /usr/include/c++/15/bits/erase_if.h /usr/include/c++/15/map \
  /usr/include/c++/15/bits/stl_tree.h /usr/include/c++/15/bits/stl_map.h \
  /usr/include/c++/15/bits/stl_multimap.h \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/fastcdr_dll.h \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/config.h \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/eProsima_auto_link.h \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/CdrEncoding.hpp \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/cdr/fixed_size_string.hpp \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/detail/container_recursive_inspector.hpp \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/exceptions/BadParamException.h \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/exceptions/Exception.h \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/fastcdr_dll.h \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/exceptions/Exception.h \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/exceptions/NotEnoughMemoryException.h \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/FastBuffer.h \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/xcdr/external.hpp \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/exceptions/LockedExternalAccessException.hpp \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/xcdr/MemberId.hpp \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/fastcdr_dll.h \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/xcdr/optional.hpp \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/xcdr/detail/optional.hpp \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/exceptions/BadOptionalAccessException.hpp \
- /usr/include/malloc.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/types.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/logging.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/error_handling.h \
+ /opt/ros/lyrical/includefastcdr/fastcdr/fastcdr_dll.h \
+ /opt/ros/lyrical/includefastcdr/fastcdr/config.h \
+ /opt/ros/lyrical/includefastcdr/fastcdr/eProsima_auto_link.h \
+ /opt/ros/lyrical/includefastcdr/fastcdr/CdrEncoding.hpp \
+ /opt/ros/lyrical/includefastcdr/fastcdr/cdr/fixed_size_string.hpp \
+ /opt/ros/lyrical/includefastcdr/fastcdr/detail/container_recursive_inspector.hpp \
+ /opt/ros/lyrical/includefastcdr/fastcdr/exceptions/BadParamException.h \
+ /opt/ros/lyrical/includefastcdr/fastcdr/exceptions/Exception.h \
+ /opt/ros/lyrical/includefastcdr/fastcdr/fastcdr_dll.h \
+ /opt/ros/lyrical/includefastcdr/fastcdr/exceptions/Exception.h \
+ /opt/ros/lyrical/includefastcdr/fastcdr/exceptions/NotEnoughMemoryException.h \
+ /opt/ros/lyrical/includefastcdr/fastcdr/FastBuffer.h \
+ /opt/ros/lyrical/includefastcdr/fastcdr/xcdr/external.hpp \
+ /opt/ros/lyrical/includefastcdr/fastcdr/exceptions/LockedExternalAccessException.hpp \
+ /opt/ros/lyrical/includefastcdr/fastcdr/xcdr/MemberId.hpp \
+ /opt/ros/lyrical/includefastcdr/fastcdr/fastcdr_dll.h \
+ /opt/ros/lyrical/includefastcdr/fastcdr/xcdr/optional.hpp \
+ /opt/ros/lyrical/includefastcdr/fastcdr/xcdr/detail/optional.hpp \
+ /opt/ros/lyrical/includefastcdr/fastcdr/exceptions/BadOptionalAccessException.hpp \
+ /usr/include/malloc.h /opt/ros/lyrical/include/rmw/rmw/types.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/logging.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/error_handling.h \
  /usr/include/c++/15/stdlib.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/snprintf.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/strnlen.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/time.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/types.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/types/array_list.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/types/char_array.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/types/hash_map.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/types/string_array.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/qsort.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/types/string_map.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/types/uint8_array.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/events_statuses/events_statuses.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/events_statuses/incompatible_qos.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/qos_policy_kind.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/visibility_control.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/events_statuses/incompatible_type.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/events_statuses/liveliness_changed.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/events_statuses/liveliness_lost.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/events_statuses/matched.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/events_statuses/message_lost.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/events_statuses/offered_deadline_missed.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/events_statuses/requested_deadline_missed.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/init.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/init_options.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/discovery_options.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/macros.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/ret_types.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/domain_id.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/enclave.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/security_options.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/serialized_message.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/subscription_content_filter_options.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/time.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_cpp/include/rosidl_typesupport_cpp/service_type_support.hpp \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/service_type_support_struct.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/snprintf.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/strnlen.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/testing/fault_injection.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/time.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/types.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/types/array_list.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/types/char_array.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/types/hash_map.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/types/string_array.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/qsort.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/types/string_map.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/types/uint8_array.h \
+ /opt/ros/lyrical/include/rmw/rmw/events_statuses/events_statuses.h \
+ /opt/ros/lyrical/include/rmw/rmw/events_statuses/incompatible_qos.h \
+ /opt/ros/lyrical/include/rmw/rmw/qos_policy_kind.h \
+ /opt/ros/lyrical/include/rmw/rmw/visibility_control.h \
+ /opt/ros/lyrical/include/rmw/rmw/events_statuses/incompatible_type.h \
+ /opt/ros/lyrical/include/rmw/rmw/events_statuses/liveliness_changed.h \
+ /opt/ros/lyrical/include/rmw/rmw/events_statuses/liveliness_lost.h \
+ /opt/ros/lyrical/include/rmw/rmw/events_statuses/matched.h \
+ /opt/ros/lyrical/include/rmw/rmw/events_statuses/message_lost.h \
+ /opt/ros/lyrical/include/rmw/rmw/events_statuses/offered_deadline_missed.h \
+ /opt/ros/lyrical/include/rmw/rmw/events_statuses/requested_deadline_missed.h \
+ /opt/ros/lyrical/include/rmw/rmw/init.h \
+ /opt/ros/lyrical/include/rmw/rmw/init_options.h \
+ /opt/ros/lyrical/include/rmw/rmw/discovery_options.h \
+ /opt/ros/lyrical/include/rmw/rmw/macros.h \
+ /opt/ros/lyrical/include/rmw/rmw/ret_types.h \
+ /opt/ros/lyrical/include/rmw/rmw/domain_id.h \
+ /opt/ros/lyrical/include/rmw/rmw/enclave.h \
+ /opt/ros/lyrical/include/rmw/rmw/security_options.h \
+ /opt/ros/lyrical/include/rmw/rmw/serialized_message.h \
+ /opt/ros/lyrical/include/rmw/rmw/subscription_content_filter_options.h \
+ /opt/ros/lyrical/include/rmw/rmw/time.h \
+ /opt/ros/lyrical/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/srv/detail/spawn__functions.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/action_type_support_struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/msg/rosidl_generator_c__visibility_control.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/srv/detail/spawn__struct.h \
- /home/cjson/ros2_lyrical/build/service_msgs/rosidl_generator_c/service_msgs/msg/detail/service_event_info__struct.h \
- /home/cjson/ros2_lyrical/build/builtin_interfaces/rosidl_generator_c/builtin_interfaces/msg/detail/time__struct.h \
+ /opt/ros/lyrical/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
+ /opt/ros/lyrical/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /usr/include/c++/15/limits \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/logging_macros.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_cpp/include/rosidl_typesupport_cpp/message_type_support.hpp \
- /home/cjson/ros2_lyrical/src/ros2/rosidl_typesupport_fastrtps/rosidl_typesupport_fastrtps_cpp/include/rosidl_typesupport_fastrtps_cpp/identifier.hpp \
- /home/cjson/ros2_lyrical/src/ros2/rosidl_typesupport_fastrtps/rosidl_typesupport_fastrtps_cpp/include/rosidl_typesupport_fastrtps_cpp/visibility_control.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl_typesupport_fastrtps/rosidl_typesupport_fastrtps_cpp/include/rosidl_typesupport_fastrtps_cpp/message_type_support.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/topic_endpoint_info.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl_typesupport_fastrtps/rosidl_typesupport_fastrtps_cpp/include/rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp \
- /home/cjson/ros2_lyrical/src/ros2/rosidl_typesupport_fastrtps/rosidl_typesupport_fastrtps_cpp/include/rosidl_typesupport_fastrtps_cpp/serialization_helpers.hpp \
- /home/cjson/ros2_lyrical/install/fastcdr/include/fastcdr/exceptions/BadParamException.h \
- /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_typesupport_fastrtps_c/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h \
- /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_typesupport_fastrtps_c/turtlesim_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h \
- /home/cjson/ros2_lyrical/install/rmw/include/rmw/rmw/error_handling.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl_typesupport_fastrtps/rosidl_typesupport_fastrtps_cpp/include/rosidl_typesupport_fastrtps_cpp/service_type_support.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl_typesupport_fastrtps/rosidl_typesupport_fastrtps_cpp/include/rosidl_typesupport_fastrtps_cpp/service_type_support_decl.hpp
+ /opt/ros/lyrical/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+ /opt/ros/lyrical/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/identifier.hpp \
+ /opt/ros/lyrical/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/visibility_control.h \
+ /opt/ros/lyrical/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/message_type_support.h \
+ /opt/ros/lyrical/include/rmw/rmw/topic_endpoint_info.h \
+ /opt/ros/lyrical/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp \
+ /opt/ros/lyrical/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/serialization_helpers.hpp \
+ /opt/ros/lyrical/includefastcdr/fastcdr/exceptions/BadParamException.h \
+ /opt/ros/lyrical/include/rmw/rmw/error_handling.h \
+ /opt/ros/lyrical/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/service_type_support.h \
+ /opt/ros/lyrical/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/service_type_support_decl.hpp

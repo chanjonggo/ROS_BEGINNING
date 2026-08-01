@@ -331,13 +331,13 @@ include("/home/cjson/project/ROS_BEGINNING/build/turtlesim/ament_cmake_symlink_i
 # install(FILES "/home/cjson/project/ROS_BEGINNING/build/turtlesim/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlesim" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 include("/home/cjson/project/ROS_BEGINNING/build/turtlesim/ament_cmake_symlink_install_files_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/cjson/ros2_lyrical/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/turtlesim/environment")
+# install(FILES "/opt/ros/lyrical/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/turtlesim/environment")
 include("/home/cjson/project/ROS_BEGINNING/build/turtlesim/ament_cmake_symlink_install_files_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/cjson/project/ROS_BEGINNING/build/turtlesim/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/turtlesim/environment")
 include("/home/cjson/project/ROS_BEGINNING/build/turtlesim/ament_cmake_symlink_install_files_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/cjson/ros2_lyrical/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/turtlesim/environment")
+# install(FILES "/opt/ros/lyrical/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/turtlesim/environment")
 include("/home/cjson/project/ROS_BEGINNING/build/turtlesim/ament_cmake_symlink_install_files_4_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/cjson/project/ROS_BEGINNING/build/turtlesim/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/turtlesim/environment")

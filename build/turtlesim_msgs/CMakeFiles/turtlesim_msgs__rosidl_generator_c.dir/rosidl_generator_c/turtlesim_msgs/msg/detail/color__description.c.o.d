@@ -42,39 +42,29 @@ CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_m
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/action_type_support_struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/message_type_support_struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_description__struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/individual_type_description__struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/string.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/primitives_sequence.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field__struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field_type__struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_source__struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_hash.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/allocator.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/macros.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/testing/fault_injection.h \
- /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/visibility_control.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/visibility_control_macros.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/types/rcutils_ret.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/sha256.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/visibility_control.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_typesupport_interface/include/rosidl_typesupport_interface/macros.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/service_type_support_struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/allocator.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/macros.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/types/rcutils_ret.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/visibility_control.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/visibility_control_macros.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/sha256.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+ /opt/ros/lyrical/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/msg/rosidl_generator_c__visibility_control.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/msg/detail/color__struct.h \
  /usr/include/assert.h /usr/include/string.h \

@@ -14,8 +14,8 @@ CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tur
  /usr/include/c++/15/pstl/pstl_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h \
  /usr/include/c++/15/bits/version.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/message_type_support_struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_description__struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -26,37 +26,27 @@ CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tur
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/individual_type_description__struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/string.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/primitives_sequence.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field__struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field_type__struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_source__struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_hash.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/allocator.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/macros.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/testing/fault_injection.h \
- /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/visibility_control.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/visibility_control_macros.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/types/rcutils_ret.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/sha256.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/visibility_control.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_typesupport_interface/include/rosidl_typesupport_interface/macros.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/allocator.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/macros.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/types/rcutils_ret.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/visibility_control.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/visibility_control_macros.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/sha256.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+ /opt/ros/lyrical/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/srv/detail/set_pen__functions.h \
  /usr/include/c++/15/stdlib.h /usr/include/c++/15/cstdlib \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -82,12 +72,12 @@ CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tur
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/15/bits/std_abs.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/action_type_support_struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/service_type_support_struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/msg/rosidl_generator_c__visibility_control.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/srv/detail/set_pen__struct.h \
- /home/cjson/ros2_lyrical/build/service_msgs/rosidl_generator_c/service_msgs/msg/detail/service_event_info__struct.h \
- /home/cjson/ros2_lyrical/build/builtin_interfaces/rosidl_generator_c/builtin_interfaces/msg/detail/time__struct.h \
+ /opt/ros/lyrical/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
+ /opt/ros/lyrical/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_cpp/turtlesim_msgs/srv/detail/set_pen__struct.hpp \
  /usr/include/c++/15/algorithm /usr/include/c++/15/bits/stl_algobase.h \
  /usr/include/c++/15/bits/functexcept.h \
@@ -141,8 +131,12 @@ CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tur
  /usr/include/c++/15/bits/requires_hosted.h /usr/include/c++/15/ios \
  /usr/include/c++/15/iosfwd /usr/include/c++/15/bits/stringfwd.h \
  /usr/include/c++/15/bits/postypes.h /usr/include/c++/15/cwchar \
- /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+ /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/c++/15/exception /usr/include/c++/15/bits/exception_ptr.h \
  /usr/include/c++/15/bits/cxxabi_init_exception.h \
  /usr/include/c++/15/typeinfo /usr/include/c++/15/bits/nested_exception.h \
@@ -184,6 +178,11 @@ CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tur
  /usr/include/c++/15/bits/basic_string.h /usr/include/c++/15/string_view \
  /usr/include/c++/15/bits/string_view.tcc \
  /usr/include/c++/15/ext/string_conversions.h /usr/include/c++/15/cstdio \
+ /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/c++/15/cerrno /usr/include/errno.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
@@ -241,21 +240,21 @@ CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tur
  /usr/include/c++/15/bits/stl_vector.h \
  /usr/include/c++/15/bits/stl_bvector.h \
  /usr/include/c++/15/bits/vector.tcc \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp \
+ /opt/ros/lyrical/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
  /usr/include/c++/15/utility /usr/include/c++/15/bits/stl_relops.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_buffer/include/rosidl_buffer/buffer.hpp \
+ /opt/ros/lyrical/include/rosidl_buffer/rosidl_buffer/buffer.hpp \
  /usr/include/c++/15/iterator /usr/include/c++/15/bits/stream_iterator.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_buffer/include/rosidl_buffer/buffer_impl_base.hpp \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_buffer/include/rosidl_buffer/cpu_buffer_impl.hpp \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_cpp/include/rosidl_runtime_cpp/message_initialization.hpp \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/message_initialization.h \
- /home/cjson/ros2_lyrical/build/service_msgs/rosidl_generator_cpp/service_msgs/msg/detail/service_event_info__struct.hpp \
- /home/cjson/ros2_lyrical/build/builtin_interfaces/rosidl_generator_cpp/builtin_interfaces/msg/detail/time__struct.hpp \
- /home/cjson/ros2_lyrical/src/ros2/rosidl_typesupport/rosidl_typesupport_cpp/include/rosidl_typesupport_cpp/identifier.hpp \
- /home/cjson/ros2_lyrical/src/ros2/rosidl_typesupport/rosidl_typesupport_cpp/include/rosidl_typesupport_cpp/visibility_control.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_cpp/include/rosidl_typesupport_cpp/message_type_support.hpp \
- /home/cjson/ros2_lyrical/src/ros2/rosidl_typesupport/rosidl_typesupport_c/include/rosidl_typesupport_c/type_support_map.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl_typesupport/rosidl_typesupport_cpp/include/rosidl_typesupport_cpp/message_type_support_dispatch.hpp \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_cpp/include/rosidl_typesupport_cpp/service_type_support.hpp \
+ /opt/ros/lyrical/include/rosidl_buffer/rosidl_buffer/buffer_impl_base.hpp \
+ /opt/ros/lyrical/include/rosidl_buffer/rosidl_buffer/cpu_buffer_impl.hpp \
+ /opt/ros/lyrical/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
+ /opt/ros/lyrical/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp \
+ /opt/ros/lyrical/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
+ /opt/ros/lyrical/include/rosidl_typesupport_cpp/rosidl_typesupport_cpp/identifier.hpp \
+ /opt/ros/lyrical/include/rosidl_typesupport_cpp/rosidl_typesupport_cpp/visibility_control.h \
+ /opt/ros/lyrical/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+ /opt/ros/lyrical/include/rosidl_typesupport_c/rosidl_typesupport_c/type_support_map.h \
+ /opt/ros/lyrical/include/rosidl_typesupport_cpp/rosidl_typesupport_cpp/message_type_support_dispatch.hpp \
+ /opt/ros/lyrical/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
  /usr/include/c++/15/cstring /usr/include/string.h /usr/include/strings.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl_typesupport/rosidl_typesupport_cpp/include/rosidl_typesupport_cpp/service_type_support_dispatch.hpp
+ /opt/ros/lyrical/include/rosidl_typesupport_cpp/rosidl_typesupport_cpp/service_type_support_dispatch.hpp

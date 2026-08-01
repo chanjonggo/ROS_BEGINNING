@@ -6,17 +6,14 @@
 #include "turtlesim_msgs/msg/detail/color__struct.hpp"
 
 #include <cstddef>
-#include <cstdio>
 #include <limits>
 #include <stdexcept>
 #include <string>
-#include "rcutils/logging_macros.h"
 #include "rosidl_typesupport_cpp/message_type_support.hpp"
 #include "rosidl_typesupport_fastrtps_cpp/identifier.hpp"
 #include "rosidl_typesupport_fastrtps_cpp/message_type_support.h"
 #include "rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp"
 #include "rosidl_typesupport_fastrtps_cpp/serialization_helpers.hpp"
-#include "turtlesim_msgs/msg/detail/color__rosidl_typesupport_fastrtps_c.h"
 #include "fastcdr/Cdr.h"
 
 
@@ -68,59 +65,6 @@ cdr_deserialize(
   return true;
 }  // NOLINT(readability/fn_size)
 
-// Endpoint-aware serialization. Always emitted so parent messages can recurse
-// through non-Buffer intermediate message types.
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-cdr_serialize_with_endpoint(
-  const turtlesim_msgs::msg::Color & ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  (void)ros_message;
-  (void)endpoint_info;
-  (void)serialization_context;
-  try {
-    // Member: r
-    cdr << ros_message.r;
-    // Member: g
-    cdr << ros_message.g;
-    // Member: b
-    cdr << ros_message.b;
-  } catch (const std::exception & e) {
-    RCUTILS_LOG_ERROR_NAMED(
-      "turtlesim_msgs.typesupport_fastrtps_cpp",
-      "cdr_serialize_with_endpoint failed: %s", e.what());
-    return false;
-  }
-  return true;
-}
-
-// Endpoint-aware deserialization. Always emitted so parent messages can recurse
-// through non-Buffer intermediate message types.
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-cdr_deserialize_with_endpoint(
-  eprosima::fastcdr::Cdr & cdr,
-  turtlesim_msgs::msg::Color & ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  (void)ros_message;
-  (void)endpoint_info;
-  (void)serialization_context;
-  // Member: r
-  cdr >> ros_message.r;
-
-  // Member: g
-  cdr >> ros_message.g;
-
-  // Member: b
-  cdr >> ros_message.b;
-
-  return true;
-}  // NOLINT(readability/fn_size)
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
@@ -369,38 +313,6 @@ static size_t _Color__max_serialized_size(char & bounds_info)
   return ret_val;
 }
 
-// Endpoint-aware serialization wrapper
-static bool _Color__cdr_serialize_with_endpoint(
-  const void * untyped_ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  auto typed_message =
-    static_cast<const turtlesim_msgs::msg::Color *>(
-    untyped_ros_message);
-  return cdr_serialize_with_endpoint(*typed_message, cdr, endpoint_info, serialization_context);
-}
-
-// Endpoint-aware deserialization wrapper
-static bool _Color__cdr_deserialize_with_endpoint(
-  eprosima::fastcdr::Cdr & cdr,
-  void * untyped_ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  auto typed_message =
-    static_cast<turtlesim_msgs::msg::Color *>(
-    untyped_ros_message);
-  return cdr_deserialize_with_endpoint(cdr, *typed_message, endpoint_info, serialization_context);
-}
-
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-has_buffer_fields_Color()
-{
-  return has_buffer_fields_turtlesim_msgs__msg__Color();
-}
 
 static message_type_support_callbacks_t _Color__callbacks = {
   "turtlesim_msgs::msg",
@@ -410,9 +322,9 @@ static message_type_support_callbacks_t _Color__callbacks = {
   _Color__get_serialized_size,
   _Color__max_serialized_size,
   nullptr,
-  has_buffer_fields_Color(),
-  _Color__cdr_serialize_with_endpoint,
-  _Color__cdr_deserialize_with_endpoint
+  false,
+  nullptr,
+  nullptr
 };
 
 static rosidl_message_type_support_t _Color__handle = {

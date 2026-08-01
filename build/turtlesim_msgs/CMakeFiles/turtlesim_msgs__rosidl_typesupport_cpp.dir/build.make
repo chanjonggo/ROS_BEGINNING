@@ -69,12 +69,12 @@ include CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/flags.make
 
-rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /home/cjson/ros2_lyrical/install/rosidl_typesupport_cpp/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp
-rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /home/cjson/ros2_lyrical/install/rosidl_typesupport_cpp/lib/python3.14/site-packages/rosidl_typesupport_cpp/__init__.py
-rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /home/cjson/ros2_lyrical/install/rosidl_typesupport_cpp/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em
-rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /home/cjson/ros2_lyrical/install/rosidl_typesupport_cpp/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em
-rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /home/cjson/ros2_lyrical/install/rosidl_typesupport_cpp/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em
-rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /home/cjson/ros2_lyrical/install/rosidl_typesupport_cpp/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em
+rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /opt/ros/lyrical/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp
+rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /opt/ros/lyrical/lib/python3.14/site-packages/rosidl_typesupport_cpp/__init__.py
+rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /opt/ros/lyrical/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em
+rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /opt/ros/lyrical/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em
+rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /opt/ros/lyrical/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em
+rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /opt/ros/lyrical/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: rosidl_adapter/turtlesim_msgs/action/RotateAbsolute.idl
 rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: rosidl_adapter/turtlesim_msgs/msg/Color.idl
 rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: rosidl_adapter/turtlesim_msgs/msg/Pose.idl
@@ -83,16 +83,16 @@ rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: 
 rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: rosidl_adapter/turtlesim_msgs/srv/Spawn.idl
 rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: rosidl_adapter/turtlesim_msgs/srv/TeleportAbsolute.idl
 rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: rosidl_adapter/turtlesim_msgs/srv/TeleportRelative.idl
-rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /home/cjson/ros2_lyrical/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
-rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /home/cjson/ros2_lyrical/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
-rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /home/cjson/ros2_lyrical/install/service_msgs/share/service_msgs/msg/ServiceEventInfo.idl
-rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /home/cjson/ros2_lyrical/install/action_msgs/share/action_msgs/msg/GoalInfo.idl
-rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /home/cjson/ros2_lyrical/install/action_msgs/share/action_msgs/msg/GoalStatus.idl
-rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /home/cjson/ros2_lyrical/install/action_msgs/share/action_msgs/msg/GoalStatusArray.idl
-rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /home/cjson/ros2_lyrical/install/action_msgs/share/action_msgs/srv/CancelGoal.idl
-rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /home/cjson/ros2_lyrical/install/unique_identifier_msgs/share/unique_identifier_msgs/msg/UUID.idl
+rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /opt/ros/lyrical/share/builtin_interfaces/msg/Duration.idl
+rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /opt/ros/lyrical/share/builtin_interfaces/msg/Time.idl
+rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /opt/ros/lyrical/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /opt/ros/lyrical/share/action_msgs/msg/GoalInfo.idl
+rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /opt/ros/lyrical/share/action_msgs/msg/GoalStatus.idl
+rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /opt/ros/lyrical/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /opt/ros/lyrical/share/action_msgs/srv/CancelGoal.idl
+rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp: /opt/ros/lyrical/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support dispatch for ROS interfaces"
-	/usr/bin/python3 /home/cjson/ros2_lyrical/install/rosidl_typesupport_cpp/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
+	/usr/bin/python3 /opt/ros/lyrical/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
 
 rosidl_typesupport_cpp/turtlesim_msgs/msg/color__type_support.cpp: rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/turtlesim_msgs/msg/color__type_support.cpp
@@ -255,19 +255,19 @@ libturtlesim_msgs__rosidl_typesupport_cpp.so: CMakeFiles/turtlesim_msgs__rosidl_
 libturtlesim_msgs__rosidl_typesupport_cpp.so: CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/build.make
 libturtlesim_msgs__rosidl_typesupport_cpp.so: CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/compiler_depend.ts
 libturtlesim_msgs__rosidl_typesupport_cpp.so: libturtlesim_msgs__rosidl_generator_c.so
-libturtlesim_msgs__rosidl_typesupport_cpp.so: /home/cjson/ros2_lyrical/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_cpp.so
-libturtlesim_msgs__rosidl_typesupport_cpp.so: /home/cjson/ros2_lyrical/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
-libturtlesim_msgs__rosidl_typesupport_cpp.so: /home/cjson/ros2_lyrical/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_cpp.so
-libturtlesim_msgs__rosidl_typesupport_cpp.so: /home/cjson/ros2_lyrical/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-libturtlesim_msgs__rosidl_typesupport_cpp.so: /home/cjson/ros2_lyrical/install/rosidl_typesupport_cpp/lib/librosidl_typesupport_cpp.so
-libturtlesim_msgs__rosidl_typesupport_cpp.so: /home/cjson/ros2_lyrical/install/rosidl_typesupport_c/lib/librosidl_typesupport_c.so
-libturtlesim_msgs__rosidl_typesupport_cpp.so: /home/cjson/ros2_lyrical/install/action_msgs/lib/libaction_msgs__rosidl_generator_c.so
-libturtlesim_msgs__rosidl_typesupport_cpp.so: /home/cjson/ros2_lyrical/install/service_msgs/lib/libservice_msgs__rosidl_generator_c.so
-libturtlesim_msgs__rosidl_typesupport_cpp.so: /home/cjson/ros2_lyrical/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so
-libturtlesim_msgs__rosidl_typesupport_cpp.so: /home/cjson/ros2_lyrical/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_generator_c.so
-libturtlesim_msgs__rosidl_typesupport_cpp.so: /home/cjson/ros2_lyrical/install/rosidl_runtime_c/lib/librosidl_runtime_c.so
-libturtlesim_msgs__rosidl_typesupport_cpp.so: /home/cjson/ros2_lyrical/install/rcutils/lib/librcutils.so
-libturtlesim_msgs__rosidl_typesupport_cpp.so: /home/cjson/ros2_lyrical/install/rosidl_buffer/lib/librosidl_buffer.so
+libturtlesim_msgs__rosidl_typesupport_cpp.so: /opt/ros/lyrical/lib/libaction_msgs__rosidl_typesupport_cpp.so
+libturtlesim_msgs__rosidl_typesupport_cpp.so: /opt/ros/lyrical/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
+libturtlesim_msgs__rosidl_typesupport_cpp.so: /opt/ros/lyrical/lib/libservice_msgs__rosidl_typesupport_cpp.so
+libturtlesim_msgs__rosidl_typesupport_cpp.so: /opt/ros/lyrical/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+libturtlesim_msgs__rosidl_typesupport_cpp.so: /opt/ros/lyrical/lib/librosidl_typesupport_cpp.so
+libturtlesim_msgs__rosidl_typesupport_cpp.so: /opt/ros/lyrical/lib/librosidl_typesupport_c.so
+libturtlesim_msgs__rosidl_typesupport_cpp.so: /opt/ros/lyrical/lib/libaction_msgs__rosidl_generator_c.so
+libturtlesim_msgs__rosidl_typesupport_cpp.so: /opt/ros/lyrical/lib/libservice_msgs__rosidl_generator_c.so
+libturtlesim_msgs__rosidl_typesupport_cpp.so: /opt/ros/lyrical/lib/libbuiltin_interfaces__rosidl_generator_c.so
+libturtlesim_msgs__rosidl_typesupport_cpp.so: /opt/ros/lyrical/lib/libunique_identifier_msgs__rosidl_generator_c.so
+libturtlesim_msgs__rosidl_typesupport_cpp.so: /opt/ros/lyrical/lib/librosidl_runtime_c.so
+libturtlesim_msgs__rosidl_typesupport_cpp.so: /opt/ros/lyrical/lib/librcutils.so
+libturtlesim_msgs__rosidl_typesupport_cpp.so: /opt/ros/lyrical/lib/librosidl_buffer.so
 libturtlesim_msgs__rosidl_typesupport_cpp.so: CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library libturtlesim_msgs__rosidl_typesupport_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/link.txt --verbose=$(VERBOSE)

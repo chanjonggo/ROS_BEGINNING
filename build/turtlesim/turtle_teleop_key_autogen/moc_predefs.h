@@ -475,7 +475,6 @@
 #define __FLT32X_MIN_10_EXP__ (-307)
 #define __UINTPTR_TYPE__ long unsigned int
 #define __DEC64_SUBNORMAL_MIN__ 0.000000000000001E-383DD
-#define RCUTILS_ENABLE_FAULT_INJECTION 1
 #define __DEC128_MANT_DIG__ 34
 #define __LDBL_MIN_10_EXP__ (-4931)
 #define __cpp_generic_lambdas 201707L

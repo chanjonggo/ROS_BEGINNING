@@ -58,7 +58,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_generator_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_generator_c.so"
-         OLD_RPATH "/home/cjson/ros2_lyrical/install/action_msgs/lib:/home/cjson/ros2_lyrical/install/unique_identifier_msgs/lib:/home/cjson/ros2_lyrical/install/service_msgs/lib:/home/cjson/ros2_lyrical/install/builtin_interfaces/lib:/home/cjson/ros2_lyrical/install/rosidl_runtime_c/lib:/home/cjson/ros2_lyrical/install/rosidl_buffer/lib:/home/cjson/ros2_lyrical/install/rcutils/lib:"
+         OLD_RPATH "/opt/ros/lyrical/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_generator_c.so")
@@ -81,7 +81,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_c.so"
-         OLD_RPATH "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs:/home/cjson/ros2_lyrical/install/action_msgs/lib:/home/cjson/ros2_lyrical/install/unique_identifier_msgs/lib:/home/cjson/ros2_lyrical/install/service_msgs/lib:/home/cjson/ros2_lyrical/install/builtin_interfaces/lib:/home/cjson/ros2_lyrical/install/rosidl_typesupport_fastrtps_cpp/lib:/home/cjson/ros2_lyrical/install/rmw/lib:/home/cjson/ros2_lyrical/install/rosidl_dynamic_typesupport/lib:/home/cjson/ros2_lyrical/install/rosidl_typesupport_fastrtps_c/lib:/home/cjson/ros2_lyrical/install/fastcdr/lib:/home/cjson/ros2_lyrical/install/rosidl_runtime_c/lib:/home/cjson/ros2_lyrical/install/rosidl_buffer/lib:/home/cjson/ros2_lyrical/install/rcutils/lib:"
+         OLD_RPATH "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs:/opt/ros/lyrical/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_c.so")
@@ -104,7 +104,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_cpp.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_cpp.so"
-         OLD_RPATH "/home/cjson/ros2_lyrical/install/action_msgs/lib:/home/cjson/ros2_lyrical/install/unique_identifier_msgs/lib:/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs:/home/cjson/ros2_lyrical/install/service_msgs/lib:/home/cjson/ros2_lyrical/install/builtin_interfaces/lib:/home/cjson/ros2_lyrical/install/rosidl_typesupport_fastrtps_cpp/lib:/home/cjson/ros2_lyrical/install/rmw/lib:/home/cjson/ros2_lyrical/install/rosidl_dynamic_typesupport/lib:/home/cjson/ros2_lyrical/install/rosidl_typesupport_fastrtps_c/lib:/home/cjson/ros2_lyrical/install/fastcdr/lib:/home/cjson/ros2_lyrical/install/rosidl_runtime_c/lib:/home/cjson/ros2_lyrical/install/rcutils/lib:/home/cjson/ros2_lyrical/install/rosidl_buffer/lib:"
+         OLD_RPATH "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs:/opt/ros/lyrical/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_cpp.so")
@@ -127,7 +127,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_typesupport_introspection_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_typesupport_introspection_c.so"
-         OLD_RPATH "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs:/home/cjson/ros2_lyrical/install/action_msgs/lib:/home/cjson/ros2_lyrical/install/unique_identifier_msgs/lib:/home/cjson/ros2_lyrical/install/service_msgs/lib:/home/cjson/ros2_lyrical/install/builtin_interfaces/lib:/home/cjson/ros2_lyrical/install/rosidl_typesupport_introspection_c/lib:/home/cjson/ros2_lyrical/install/rosidl_runtime_c/lib:/home/cjson/ros2_lyrical/install/rosidl_buffer/lib:/home/cjson/ros2_lyrical/install/rcutils/lib:"
+         OLD_RPATH "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs:/opt/ros/lyrical/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_typesupport_introspection_c.so")
@@ -150,7 +150,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_typesupport_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_typesupport_c.so"
-         OLD_RPATH "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs:/home/cjson/ros2_lyrical/install/action_msgs/lib:/home/cjson/ros2_lyrical/install/unique_identifier_msgs/lib:/home/cjson/ros2_lyrical/install/service_msgs/lib:/home/cjson/ros2_lyrical/install/builtin_interfaces/lib:/home/cjson/ros2_lyrical/install/rosidl_typesupport_c/lib:/home/cjson/ros2_lyrical/install/rcpputils/lib:/home/cjson/ros2_lyrical/install/rosidl_runtime_c/lib:/home/cjson/ros2_lyrical/install/rosidl_buffer/lib:/home/cjson/ros2_lyrical/install/rcutils/lib:"
+         OLD_RPATH "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs:/opt/ros/lyrical/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_typesupport_c.so")
@@ -173,7 +173,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_typesupport_introspection_cpp.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_typesupport_introspection_cpp.so"
-         OLD_RPATH "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs:/home/cjson/ros2_lyrical/install/action_msgs/lib:/home/cjson/ros2_lyrical/install/unique_identifier_msgs/lib:/home/cjson/ros2_lyrical/install/service_msgs/lib:/home/cjson/ros2_lyrical/install/builtin_interfaces/lib:/home/cjson/ros2_lyrical/install/rosidl_typesupport_introspection_cpp/lib:/home/cjson/ros2_lyrical/install/rosidl_typesupport_introspection_c/lib:/home/cjson/ros2_lyrical/install/rosidl_runtime_c/lib:/home/cjson/ros2_lyrical/install/rcutils/lib:/home/cjson/ros2_lyrical/install/rosidl_buffer/lib:"
+         OLD_RPATH "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs:/opt/ros/lyrical/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_typesupport_introspection_cpp.so")
@@ -196,7 +196,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_typesupport_cpp.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_typesupport_cpp.so"
-         OLD_RPATH "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs:/home/cjson/ros2_lyrical/install/action_msgs/lib:/home/cjson/ros2_lyrical/install/unique_identifier_msgs/lib:/home/cjson/ros2_lyrical/install/service_msgs/lib:/home/cjson/ros2_lyrical/install/builtin_interfaces/lib:/home/cjson/ros2_lyrical/install/rosidl_typesupport_cpp/lib:/home/cjson/ros2_lyrical/install/rosidl_typesupport_c/lib:/home/cjson/ros2_lyrical/install/rcpputils/lib:/home/cjson/ros2_lyrical/install/rosidl_runtime_c/lib:/home/cjson/ros2_lyrical/install/rcutils/lib:/home/cjson/ros2_lyrical/install/rosidl_buffer/lib:"
+         OLD_RPATH "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs:/opt/ros/lyrical/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_typesupport_cpp.so")
@@ -224,7 +224,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_generator_py.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_generator_py.so"
-         OLD_RPATH "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs:/home/cjson/ros2_lyrical/install/action_msgs/lib:/home/cjson/ros2_lyrical/install/unique_identifier_msgs/lib:/home/cjson/ros2_lyrical/install/service_msgs/lib:/home/cjson/ros2_lyrical/install/builtin_interfaces/lib:/home/cjson/ros2_lyrical/install/rosidl_typesupport_introspection_cpp/lib:/home/cjson/ros2_lyrical/install/rosidl_typesupport_introspection_c/lib:/home/cjson/ros2_lyrical/install/rosidl_typesupport_fastrtps_c/lib:/home/cjson/ros2_lyrical/install/rosidl_typesupport_fastrtps_cpp/lib:/home/cjson/ros2_lyrical/install/fastcdr/lib:/home/cjson/ros2_lyrical/install/rmw/lib:/home/cjson/ros2_lyrical/install/rosidl_dynamic_typesupport/lib:/home/cjson/ros2_lyrical/install/rosidl_typesupport_cpp/lib:/home/cjson/ros2_lyrical/install/rosidl_typesupport_c/lib:/home/cjson/ros2_lyrical/install/rosidl_runtime_c/lib:/home/cjson/ros2_lyrical/install/rosidl_buffer/lib:/home/cjson/ros2_lyrical/install/rcpputils/lib:/home/cjson/ros2_lyrical/install/rcutils/lib:"
+         OLD_RPATH "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs:/opt/ros/lyrical/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libturtlesim_msgs__rosidl_generator_py.so")

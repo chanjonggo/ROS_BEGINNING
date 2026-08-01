@@ -433,130 +433,6 @@ static size_t _Spawn_Request__max_serialized_size(char & bounds_info)
   return ret_val;
 }
 
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool cdr_serialize_with_endpoint_turtlesim_msgs__srv__Spawn_Request(
-  const turtlesim_msgs__srv__Spawn_Request * ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  (void)ros_message;
-  (void)endpoint_info;
-  (void)serialization_context;
-  // Field name: x
-  {
-    cdr << ros_message->x;
-  }
-
-  // Field name: y
-  {
-    cdr << ros_message->y;
-  }
-
-  // Field name: theta
-  {
-    cdr << ros_message->theta;
-  }
-
-  // Field name: name
-  {
-    const rosidl_runtime_c__String * str = &ros_message->name;
-    if (str->capacity == 0 || str->capacity <= str->size) {
-      fprintf(stderr, "string capacity not greater than size\n");
-      return false;
-    }
-    if (str->data[str->size] != '\0') {
-      fprintf(stderr, "string not null-terminated\n");
-      return false;
-    }
-    cdr << str->data;
-  }
-
-  return true;
-}
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool cdr_deserialize_with_endpoint_turtlesim_msgs__srv__Spawn_Request(
-  eprosima::fastcdr::Cdr & cdr,
-  turtlesim_msgs__srv__Spawn_Request * ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  (void)ros_message;
-  (void)endpoint_info;
-  (void)serialization_context;
-  // Field name: x
-  {
-    cdr >> ros_message->x;
-  }
-
-  // Field name: y
-  {
-    cdr >> ros_message->y;
-  }
-
-  // Field name: theta
-  {
-    cdr >> ros_message->theta;
-  }
-
-  // Field name: name
-  {
-    std::string tmp;
-    cdr >> tmp;
-    if (!ros_message->name.data) {
-      rosidl_runtime_c__String__init(&ros_message->name);
-    }
-    bool succeeded = rosidl_runtime_c__String__assign(
-      &ros_message->name,
-      tmp.c_str());
-    if (!succeeded) {
-      fprintf(stderr, "failed to assign string into field 'name'\n");
-      return false;
-    }
-  }
-
-  return true;
-}  // NOLINT(readability/fn_size)
-
-static bool _Spawn_Request__cdr_serialize_with_endpoint(
-  const void * untyped_ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  if (!untyped_ros_message) {
-    fprintf(stderr, "ros message handle is null\n");
-    return false;
-  }
-  const turtlesim_msgs__srv__Spawn_Request * ros_message =
-    static_cast<const turtlesim_msgs__srv__Spawn_Request *>(untyped_ros_message);
-  return cdr_serialize_with_endpoint_turtlesim_msgs__srv__Spawn_Request(
-    ros_message, cdr, endpoint_info, serialization_context);
-}
-
-static bool _Spawn_Request__cdr_deserialize_with_endpoint(
-  eprosima::fastcdr::Cdr & cdr,
-  void * untyped_ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  if (!untyped_ros_message) {
-    fprintf(stderr, "ros message handle is null\n");
-    return false;
-  }
-  turtlesim_msgs__srv__Spawn_Request * ros_message =
-    static_cast<turtlesim_msgs__srv__Spawn_Request *>(untyped_ros_message);
-  return cdr_deserialize_with_endpoint_turtlesim_msgs__srv__Spawn_Request(
-    cdr, ros_message, endpoint_info, serialization_context);
-}
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool has_buffer_fields_turtlesim_msgs__srv__Spawn_Request()
-{
-  return
-    false;
-}
 
 static message_type_support_callbacks_t __callbacks_Spawn_Request = {
   "turtlesim_msgs::srv",
@@ -566,9 +442,9 @@ static message_type_support_callbacks_t __callbacks_Spawn_Request = {
   _Spawn_Request__get_serialized_size,
   _Spawn_Request__max_serialized_size,
   nullptr,
-  has_buffer_fields_turtlesim_msgs__srv__Spawn_Request(),
-  _Spawn_Request__cdr_serialize_with_endpoint,
-  _Spawn_Request__cdr_deserialize_with_endpoint
+  false,
+  nullptr,
+  nullptr
 };
 
 static rosidl_message_type_support_t _Spawn_Request__type_support = {
@@ -896,100 +772,6 @@ static size_t _Spawn_Response__max_serialized_size(char & bounds_info)
   return ret_val;
 }
 
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool cdr_serialize_with_endpoint_turtlesim_msgs__srv__Spawn_Response(
-  const turtlesim_msgs__srv__Spawn_Response * ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  (void)ros_message;
-  (void)endpoint_info;
-  (void)serialization_context;
-  // Field name: name
-  {
-    const rosidl_runtime_c__String * str = &ros_message->name;
-    if (str->capacity == 0 || str->capacity <= str->size) {
-      fprintf(stderr, "string capacity not greater than size\n");
-      return false;
-    }
-    if (str->data[str->size] != '\0') {
-      fprintf(stderr, "string not null-terminated\n");
-      return false;
-    }
-    cdr << str->data;
-  }
-
-  return true;
-}
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool cdr_deserialize_with_endpoint_turtlesim_msgs__srv__Spawn_Response(
-  eprosima::fastcdr::Cdr & cdr,
-  turtlesim_msgs__srv__Spawn_Response * ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  (void)ros_message;
-  (void)endpoint_info;
-  (void)serialization_context;
-  // Field name: name
-  {
-    std::string tmp;
-    cdr >> tmp;
-    if (!ros_message->name.data) {
-      rosidl_runtime_c__String__init(&ros_message->name);
-    }
-    bool succeeded = rosidl_runtime_c__String__assign(
-      &ros_message->name,
-      tmp.c_str());
-    if (!succeeded) {
-      fprintf(stderr, "failed to assign string into field 'name'\n");
-      return false;
-    }
-  }
-
-  return true;
-}  // NOLINT(readability/fn_size)
-
-static bool _Spawn_Response__cdr_serialize_with_endpoint(
-  const void * untyped_ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  if (!untyped_ros_message) {
-    fprintf(stderr, "ros message handle is null\n");
-    return false;
-  }
-  const turtlesim_msgs__srv__Spawn_Response * ros_message =
-    static_cast<const turtlesim_msgs__srv__Spawn_Response *>(untyped_ros_message);
-  return cdr_serialize_with_endpoint_turtlesim_msgs__srv__Spawn_Response(
-    ros_message, cdr, endpoint_info, serialization_context);
-}
-
-static bool _Spawn_Response__cdr_deserialize_with_endpoint(
-  eprosima::fastcdr::Cdr & cdr,
-  void * untyped_ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  if (!untyped_ros_message) {
-    fprintf(stderr, "ros message handle is null\n");
-    return false;
-  }
-  turtlesim_msgs__srv__Spawn_Response * ros_message =
-    static_cast<turtlesim_msgs__srv__Spawn_Response *>(untyped_ros_message);
-  return cdr_deserialize_with_endpoint_turtlesim_msgs__srv__Spawn_Response(
-    cdr, ros_message, endpoint_info, serialization_context);
-}
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool has_buffer_fields_turtlesim_msgs__srv__Spawn_Response()
-{
-  return
-    false;
-}
 
 static message_type_support_callbacks_t __callbacks_Spawn_Response = {
   "turtlesim_msgs::srv",
@@ -999,9 +781,9 @@ static message_type_support_callbacks_t __callbacks_Spawn_Response = {
   _Spawn_Response__get_serialized_size,
   _Spawn_Response__max_serialized_size,
   nullptr,
-  has_buffer_fields_turtlesim_msgs__srv__Spawn_Response(),
-  _Spawn_Response__cdr_serialize_with_endpoint,
-  _Spawn_Response__cdr_deserialize_with_endpoint
+  false,
+  nullptr,
+  nullptr
 };
 
 static rosidl_message_type_support_t _Spawn_Response__type_support = {
@@ -1109,23 +891,6 @@ ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_turtlesim_msgs
 const rosidl_message_type_support_t *
   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, service_msgs, msg, ServiceEventInfo)();
 
-ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_turtlesim_msgs
-bool cdr_serialize_with_endpoint_service_msgs__msg__ServiceEventInfo(
-  const service_msgs__msg__ServiceEventInfo * ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_turtlesim_msgs
-bool cdr_deserialize_with_endpoint_service_msgs__msg__ServiceEventInfo(
-  eprosima::fastcdr::Cdr & cdr,
-  service_msgs__msg__ServiceEventInfo * ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_turtlesim_msgs
-bool has_buffer_fields_service_msgs__msg__ServiceEventInfo();
-
 bool cdr_serialize_turtlesim_msgs__srv__Spawn_Request(
   const turtlesim_msgs__srv__Spawn_Request * ros_message,
   eprosima::fastcdr::Cdr & cdr);
@@ -1159,20 +924,6 @@ size_t max_serialized_size_key_turtlesim_msgs__srv__Spawn_Request(
 const rosidl_message_type_support_t *
   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, turtlesim_msgs, srv, Spawn_Request)();
 
-bool cdr_serialize_with_endpoint_turtlesim_msgs__srv__Spawn_Request(
-  const turtlesim_msgs__srv__Spawn_Request * ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context);
-
-bool cdr_deserialize_with_endpoint_turtlesim_msgs__srv__Spawn_Request(
-  eprosima::fastcdr::Cdr & cdr,
-  turtlesim_msgs__srv__Spawn_Request * ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context);
-
-bool has_buffer_fields_turtlesim_msgs__srv__Spawn_Request();
-
 bool cdr_serialize_turtlesim_msgs__srv__Spawn_Response(
   const turtlesim_msgs__srv__Spawn_Response * ros_message,
   eprosima::fastcdr::Cdr & cdr);
@@ -1205,20 +956,6 @@ size_t max_serialized_size_key_turtlesim_msgs__srv__Spawn_Response(
 
 const rosidl_message_type_support_t *
   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, turtlesim_msgs, srv, Spawn_Response)();
-
-bool cdr_serialize_with_endpoint_turtlesim_msgs__srv__Spawn_Response(
-  const turtlesim_msgs__srv__Spawn_Response * ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context);
-
-bool cdr_deserialize_with_endpoint_turtlesim_msgs__srv__Spawn_Response(
-  eprosima::fastcdr::Cdr & cdr,
-  turtlesim_msgs__srv__Spawn_Response * ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context);
-
-bool has_buffer_fields_turtlesim_msgs__srv__Spawn_Response();
 
 
 using _Spawn_Event__ros_msg_type = turtlesim_msgs__srv__Spawn_Event;
@@ -1709,169 +1446,6 @@ static size_t _Spawn_Event__max_serialized_size(char & bounds_info)
   return ret_val;
 }
 
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool cdr_serialize_with_endpoint_turtlesim_msgs__srv__Spawn_Event(
-  const turtlesim_msgs__srv__Spawn_Event * ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  (void)ros_message;
-  (void)endpoint_info;
-  (void)serialization_context;
-  // Field name: info
-  {
-    cdr_serialize_with_endpoint_service_msgs__msg__ServiceEventInfo(
-      &ros_message->info, cdr, endpoint_info, serialization_context);
-  }
-
-  // Field name: request
-  {
-    size_t size = ros_message->request.size;
-    auto array_ptr = ros_message->request.data;
-    if (size > 1) {
-      fprintf(stderr, "array size exceeds upper bound\n");
-      return false;
-    }
-    cdr << static_cast<uint32_t>(size);
-    for (size_t i = 0; i < size; ++i) {
-      cdr_serialize_with_endpoint_turtlesim_msgs__srv__Spawn_Request(
-        &array_ptr[i], cdr, endpoint_info, serialization_context);
-    }
-  }
-
-  // Field name: response
-  {
-    size_t size = ros_message->response.size;
-    auto array_ptr = ros_message->response.data;
-    if (size > 1) {
-      fprintf(stderr, "array size exceeds upper bound\n");
-      return false;
-    }
-    cdr << static_cast<uint32_t>(size);
-    for (size_t i = 0; i < size; ++i) {
-      cdr_serialize_with_endpoint_turtlesim_msgs__srv__Spawn_Response(
-        &array_ptr[i], cdr, endpoint_info, serialization_context);
-    }
-  }
-
-  return true;
-}
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool cdr_deserialize_with_endpoint_turtlesim_msgs__srv__Spawn_Event(
-  eprosima::fastcdr::Cdr & cdr,
-  turtlesim_msgs__srv__Spawn_Event * ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  (void)ros_message;
-  (void)endpoint_info;
-  (void)serialization_context;
-  // Field name: info
-  {
-    cdr_deserialize_with_endpoint_service_msgs__msg__ServiceEventInfo(cdr, &ros_message->info, endpoint_info, serialization_context);
-  }
-
-  // Field name: request
-  {
-    uint32_t cdrSize;
-    cdr >> cdrSize;
-    size_t size = static_cast<size_t>(cdrSize);
-
-    // Check there are at least 'size' remaining bytes in the CDR stream before resizing
-    auto old_state = cdr.get_state();
-    bool correct_size = cdr.jump(size);
-    cdr.set_state(old_state);
-    if (!correct_size) {
-      fprintf(stderr, "sequence size exceeds remaining buffer\n");
-      return false;
-    }
-
-    if (ros_message->request.data) {
-      turtlesim_msgs__srv__Spawn_Request__Sequence__fini(&ros_message->request);
-    }
-    if (!turtlesim_msgs__srv__Spawn_Request__Sequence__init(&ros_message->request, size)) {
-      fprintf(stderr, "failed to create array for field 'request'");
-      return false;
-    }
-    auto array_ptr = ros_message->request.data;
-    for (size_t i = 0; i < size; ++i) {
-      cdr_deserialize_with_endpoint_turtlesim_msgs__srv__Spawn_Request(cdr, &array_ptr[i], endpoint_info, serialization_context);
-    }
-  }
-
-  // Field name: response
-  {
-    uint32_t cdrSize;
-    cdr >> cdrSize;
-    size_t size = static_cast<size_t>(cdrSize);
-
-    // Check there are at least 'size' remaining bytes in the CDR stream before resizing
-    auto old_state = cdr.get_state();
-    bool correct_size = cdr.jump(size);
-    cdr.set_state(old_state);
-    if (!correct_size) {
-      fprintf(stderr, "sequence size exceeds remaining buffer\n");
-      return false;
-    }
-
-    if (ros_message->response.data) {
-      turtlesim_msgs__srv__Spawn_Response__Sequence__fini(&ros_message->response);
-    }
-    if (!turtlesim_msgs__srv__Spawn_Response__Sequence__init(&ros_message->response, size)) {
-      fprintf(stderr, "failed to create array for field 'response'");
-      return false;
-    }
-    auto array_ptr = ros_message->response.data;
-    for (size_t i = 0; i < size; ++i) {
-      cdr_deserialize_with_endpoint_turtlesim_msgs__srv__Spawn_Response(cdr, &array_ptr[i], endpoint_info, serialization_context);
-    }
-  }
-
-  return true;
-}  // NOLINT(readability/fn_size)
-
-static bool _Spawn_Event__cdr_serialize_with_endpoint(
-  const void * untyped_ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  if (!untyped_ros_message) {
-    fprintf(stderr, "ros message handle is null\n");
-    return false;
-  }
-  const turtlesim_msgs__srv__Spawn_Event * ros_message =
-    static_cast<const turtlesim_msgs__srv__Spawn_Event *>(untyped_ros_message);
-  return cdr_serialize_with_endpoint_turtlesim_msgs__srv__Spawn_Event(
-    ros_message, cdr, endpoint_info, serialization_context);
-}
-
-static bool _Spawn_Event__cdr_deserialize_with_endpoint(
-  eprosima::fastcdr::Cdr & cdr,
-  void * untyped_ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  if (!untyped_ros_message) {
-    fprintf(stderr, "ros message handle is null\n");
-    return false;
-  }
-  turtlesim_msgs__srv__Spawn_Event * ros_message =
-    static_cast<turtlesim_msgs__srv__Spawn_Event *>(untyped_ros_message);
-  return cdr_deserialize_with_endpoint_turtlesim_msgs__srv__Spawn_Event(
-    cdr, ros_message, endpoint_info, serialization_context);
-}
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool has_buffer_fields_turtlesim_msgs__srv__Spawn_Event()
-{
-  return
-    has_buffer_fields_service_msgs__msg__ServiceEventInfo() ||
-    has_buffer_fields_turtlesim_msgs__srv__Spawn_Request() ||
-    has_buffer_fields_turtlesim_msgs__srv__Spawn_Response();
-}
 
 static message_type_support_callbacks_t __callbacks_Spawn_Event = {
   "turtlesim_msgs::srv",
@@ -1881,9 +1455,9 @@ static message_type_support_callbacks_t __callbacks_Spawn_Event = {
   _Spawn_Event__get_serialized_size,
   _Spawn_Event__max_serialized_size,
   nullptr,
-  has_buffer_fields_turtlesim_msgs__srv__Spawn_Event(),
-  _Spawn_Event__cdr_serialize_with_endpoint,
-  _Spawn_Event__cdr_deserialize_with_endpoint
+  false,
+  nullptr,
+  nullptr
 };
 
 static rosidl_message_type_support_t _Spawn_Event__type_support = {

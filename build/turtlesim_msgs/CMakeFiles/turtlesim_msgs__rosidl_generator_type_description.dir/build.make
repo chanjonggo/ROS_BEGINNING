@@ -75,8 +75,8 @@ CMakeFiles/turtlesim_msgs__rosidl_generator_type_description: rosidl_generator_t
 CMakeFiles/turtlesim_msgs__rosidl_generator_type_description: rosidl_generator_type_description/turtlesim_msgs/srv/TeleportAbsolute.json
 CMakeFiles/turtlesim_msgs__rosidl_generator_type_description: rosidl_generator_type_description/turtlesim_msgs/srv/TeleportRelative.json
 
-rosidl_generator_type_description/turtlesim_msgs/action/RotateAbsolute.json: /home/cjson/ros2_lyrical/install/rosidl_generator_type_description/lib/rosidl_generator_type_description/rosidl_generator_type_description
-rosidl_generator_type_description/turtlesim_msgs/action/RotateAbsolute.json: /home/cjson/ros2_lyrical/install/rosidl_generator_type_description/lib/python3.14/site-packages/rosidl_generator_type_description/__init__.py
+rosidl_generator_type_description/turtlesim_msgs/action/RotateAbsolute.json: /opt/ros/lyrical/lib/rosidl_generator_type_description/rosidl_generator_type_description
+rosidl_generator_type_description/turtlesim_msgs/action/RotateAbsolute.json: /opt/ros/lyrical/lib/python3.14/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/turtlesim_msgs/action/RotateAbsolute.json: rosidl_adapter/turtlesim_msgs/action/RotateAbsolute.idl
 rosidl_generator_type_description/turtlesim_msgs/action/RotateAbsolute.json: rosidl_adapter/turtlesim_msgs/msg/Color.idl
 rosidl_generator_type_description/turtlesim_msgs/action/RotateAbsolute.json: rosidl_adapter/turtlesim_msgs/msg/Pose.idl
@@ -86,7 +86,7 @@ rosidl_generator_type_description/turtlesim_msgs/action/RotateAbsolute.json: ros
 rosidl_generator_type_description/turtlesim_msgs/action/RotateAbsolute.json: rosidl_adapter/turtlesim_msgs/srv/TeleportAbsolute.idl
 rosidl_generator_type_description/turtlesim_msgs/action/RotateAbsolute.json: rosidl_adapter/turtlesim_msgs/srv/TeleportRelative.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
-	/usr/bin/python3 /home/cjson/ros2_lyrical/install/rosidl_generator_type_description/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_type_description__arguments.json
+	/usr/bin/python3 /opt/ros/lyrical/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_type_description__arguments.json
 
 rosidl_generator_type_description/turtlesim_msgs/msg/Color.json: rosidl_generator_type_description/turtlesim_msgs/action/RotateAbsolute.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/turtlesim_msgs/msg/Color.json

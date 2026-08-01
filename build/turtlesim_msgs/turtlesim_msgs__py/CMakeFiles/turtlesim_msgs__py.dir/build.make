@@ -89,20 +89,20 @@ include /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/turtlesim_msgs__p
 /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/turtlesim_msgs__py/CMakeFiles/turtlesim_msgs__py: rosidl_generator_py/turtlesim_msgs/srv/_teleport_absolute_s.c
 /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/turtlesim_msgs__py/CMakeFiles/turtlesim_msgs__py: rosidl_generator_py/turtlesim_msgs/srv/_teleport_relative_s.c
 
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/rosidl_generator_py/lib/rosidl_generator_py/rosidl_generator_py
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/rosidl_generator_py/lib/python3.14/site-packages/rosidl_generator_py/__init__.py
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/rosidl_generator_py/lib/python3.14/site-packages/rosidl_generator_py/generate_py_impl.py
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/rosidl_generator_py/share/rosidl_generator_py/resource/_action_pkg_typesupport_entry_point.c.em
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/rosidl_generator_py/share/rosidl_generator_py/resource/_action.py.em
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/rosidl_generator_py/share/rosidl_generator_py/resource/_idl_pkg_typesupport_entry_point.c.em
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/rosidl_generator_py/share/rosidl_generator_py/resource/_idl_support.c.em
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/rosidl_generator_py/share/rosidl_generator_py/resource/_idl.py.em
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/rosidl_generator_py/share/rosidl_generator_py/resource/_msg_check_fields.py.em
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/rosidl_generator_py/share/rosidl_generator_py/resource/_msg_pkg_typesupport_entry_point.c.em
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/rosidl_generator_py/share/rosidl_generator_py/resource/_msg_support.c.em
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/rosidl_generator_py/share/rosidl_generator_py/resource/_msg.py.em
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/rosidl_generator_py/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/rosidl_generator_py/share/rosidl_generator_py/resource/_srv.py.em
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/lib/rosidl_generator_py/rosidl_generator_py
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/lib/python3.14/site-packages/rosidl_generator_py/__init__.py
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/lib/python3.14/site-packages/rosidl_generator_py/generate_py_impl.py
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/share/rosidl_generator_py/resource/_action_pkg_typesupport_entry_point.c.em
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/share/rosidl_generator_py/resource/_action.py.em
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/share/rosidl_generator_py/resource/_idl_pkg_typesupport_entry_point.c.em
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/share/rosidl_generator_py/resource/_idl_support.c.em
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/share/rosidl_generator_py/resource/_idl.py.em
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/share/rosidl_generator_py/resource/_msg_check_fields.py.em
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/share/rosidl_generator_py/resource/_msg_pkg_typesupport_entry_point.c.em
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/share/rosidl_generator_py/resource/_msg_support.c.em
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/share/rosidl_generator_py/resource/_msg.py.em
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/turtlesim_msgs/action/RotateAbsolute.idl
 rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/turtlesim_msgs/msg/Color.idl
 rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/turtlesim_msgs/msg/Pose.idl
@@ -111,16 +111,16 @@ rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastr
 rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/turtlesim_msgs/srv/Spawn.idl
 rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/turtlesim_msgs/srv/TeleportAbsolute.idl
 rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/turtlesim_msgs/srv/TeleportRelative.idl
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/service_msgs/share/service_msgs/msg/ServiceEventInfo.idl
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/action_msgs/share/action_msgs/msg/GoalInfo.idl
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/action_msgs/share/action_msgs/msg/GoalStatus.idl
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/action_msgs/share/action_msgs/msg/GoalStatusArray.idl
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/action_msgs/share/action_msgs/srv/CancelGoal.idl
-rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /home/cjson/ros2_lyrical/install/unique_identifier_msgs/share/unique_identifier_msgs/msg/UUID.idl
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/lyrical/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/turtlesim_msgs__py && /usr/bin/python3 /home/cjson/ros2_lyrical/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	cd /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/turtlesim_msgs__py && /usr/bin/python3 /opt/ros/lyrical/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_introspection_c.c

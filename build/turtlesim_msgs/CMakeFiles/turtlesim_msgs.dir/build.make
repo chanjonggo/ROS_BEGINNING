@@ -74,13 +74,13 @@ CMakeFiles/turtlesim_msgs: /home/cjson/project/ROS_BEGINNING/src/ros_tutorials/t
 CMakeFiles/turtlesim_msgs: /home/cjson/project/ROS_BEGINNING/src/ros_tutorials/turtlesim_msgs/srv/Spawn.srv
 CMakeFiles/turtlesim_msgs: /home/cjson/project/ROS_BEGINNING/src/ros_tutorials/turtlesim_msgs/srv/TeleportAbsolute.srv
 CMakeFiles/turtlesim_msgs: /home/cjson/project/ROS_BEGINNING/src/ros_tutorials/turtlesim_msgs/srv/TeleportRelative.srv
-CMakeFiles/turtlesim_msgs: /home/cjson/ros2_lyrical/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
-CMakeFiles/turtlesim_msgs: /home/cjson/ros2_lyrical/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
-CMakeFiles/turtlesim_msgs: /home/cjson/ros2_lyrical/install/service_msgs/share/service_msgs/msg/ServiceEventInfo.idl
-CMakeFiles/turtlesim_msgs: /home/cjson/ros2_lyrical/install/action_msgs/share/action_msgs/msg/GoalInfo.idl
-CMakeFiles/turtlesim_msgs: /home/cjson/ros2_lyrical/install/action_msgs/share/action_msgs/msg/GoalStatus.idl
-CMakeFiles/turtlesim_msgs: /home/cjson/ros2_lyrical/install/action_msgs/share/action_msgs/msg/GoalStatusArray.idl
-CMakeFiles/turtlesim_msgs: /home/cjson/ros2_lyrical/install/action_msgs/share/action_msgs/srv/CancelGoal.idl
+CMakeFiles/turtlesim_msgs: /opt/ros/lyrical/share/builtin_interfaces/msg/Duration.idl
+CMakeFiles/turtlesim_msgs: /opt/ros/lyrical/share/builtin_interfaces/msg/Time.idl
+CMakeFiles/turtlesim_msgs: /opt/ros/lyrical/share/service_msgs/msg/ServiceEventInfo.idl
+CMakeFiles/turtlesim_msgs: /opt/ros/lyrical/share/action_msgs/msg/GoalInfo.idl
+CMakeFiles/turtlesim_msgs: /opt/ros/lyrical/share/action_msgs/msg/GoalStatus.idl
+CMakeFiles/turtlesim_msgs: /opt/ros/lyrical/share/action_msgs/msg/GoalStatusArray.idl
+CMakeFiles/turtlesim_msgs: /opt/ros/lyrical/share/action_msgs/srv/CancelGoal.idl
 
 CMakeFiles/turtlesim_msgs.dir/codegen:
 .PHONY : CMakeFiles/turtlesim_msgs.dir/codegen

@@ -78,10 +78,6 @@ max_serialized_size_key_RotateAbsolute_Goal(
   bool & is_plain,
   size_t current_alignment);
 
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-has_buffer_fields_RotateAbsolute_Goal();
-
 }  // namespace typesupport_fastrtps_cpp
 
 }  // namespace action
@@ -178,10 +174,6 @@ max_serialized_size_key_RotateAbsolute_Result(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);
-
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-has_buffer_fields_RotateAbsolute_Result();
 
 }  // namespace typesupport_fastrtps_cpp
 
@@ -280,10 +272,6 @@ max_serialized_size_key_RotateAbsolute_Feedback(
   bool & is_plain,
   size_t current_alignment);
 
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-has_buffer_fields_RotateAbsolute_Feedback();
-
 }  // namespace typesupport_fastrtps_cpp
 
 }  // namespace action
@@ -380,10 +368,6 @@ max_serialized_size_key_RotateAbsolute_SendGoal_Request(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);
-
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-has_buffer_fields_RotateAbsolute_SendGoal_Request();
 
 }  // namespace typesupport_fastrtps_cpp
 
@@ -483,10 +467,6 @@ max_serialized_size_key_RotateAbsolute_SendGoal_Response(
   bool & is_plain,
   size_t current_alignment);
 
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-has_buffer_fields_RotateAbsolute_SendGoal_Response();
-
 }  // namespace typesupport_fastrtps_cpp
 
 }  // namespace action
@@ -584,10 +564,6 @@ max_serialized_size_key_RotateAbsolute_SendGoal_Event(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);
-
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-has_buffer_fields_RotateAbsolute_SendGoal_Event();
 
 }  // namespace typesupport_fastrtps_cpp
 
@@ -706,10 +682,6 @@ max_serialized_size_key_RotateAbsolute_GetResult_Request(
   bool & is_plain,
   size_t current_alignment);
 
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-has_buffer_fields_RotateAbsolute_GetResult_Request();
-
 }  // namespace typesupport_fastrtps_cpp
 
 }  // namespace action
@@ -808,10 +780,6 @@ max_serialized_size_key_RotateAbsolute_GetResult_Response(
   bool & is_plain,
   size_t current_alignment);
 
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-has_buffer_fields_RotateAbsolute_GetResult_Response();
-
 }  // namespace typesupport_fastrtps_cpp
 
 }  // namespace action
@@ -909,10 +877,6 @@ max_serialized_size_key_RotateAbsolute_GetResult_Event(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);
-
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-has_buffer_fields_RotateAbsolute_GetResult_Event();
 
 }  // namespace typesupport_fastrtps_cpp
 
@@ -1032,10 +996,6 @@ max_serialized_size_key_RotateAbsolute_FeedbackMessage(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);
-
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-has_buffer_fields_RotateAbsolute_FeedbackMessage();
 
 }  // namespace typesupport_fastrtps_cpp
 

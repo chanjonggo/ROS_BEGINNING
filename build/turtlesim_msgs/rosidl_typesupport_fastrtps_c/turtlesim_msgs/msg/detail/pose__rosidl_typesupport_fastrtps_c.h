@@ -55,9 +55,6 @@ size_t max_serialized_size_key_turtlesim_msgs__msg__Pose(
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool has_buffer_fields_turtlesim_msgs__msg__Pose();
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, turtlesim_msgs, msg, Pose)();
 

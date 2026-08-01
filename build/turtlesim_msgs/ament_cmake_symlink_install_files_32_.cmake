@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_files("/home/cjson/project/ROS_BEGINNING/src/ros_tutorials/turtlesim_msgs" FILES "/home/cjson/ros2_lyrical/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/turtlesim_msgs/environment")
+ament_cmake_symlink_install_files("/home/cjson/project/ROS_BEGINNING/src/ros_tutorials/turtlesim_msgs" FILES "/opt/ros/lyrical/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/turtlesim_msgs/environment")

@@ -25,13 +25,13 @@ libturtlesim_msgs__rosidl_generator_c.so: \
   CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_relative__description.c.o \
   CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_relative__functions.c.o \
   CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_relative__type_support.c.o \
-  /home/cjson/ros2_lyrical/install/action_msgs/lib/libaction_msgs__rosidl_generator_c.so \
-  /home/cjson/ros2_lyrical/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_generator_c.so \
-  /home/cjson/ros2_lyrical/install/service_msgs/lib/libservice_msgs__rosidl_generator_c.so \
-  /home/cjson/ros2_lyrical/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so \
-  /home/cjson/ros2_lyrical/install/rosidl_runtime_c/lib/librosidl_runtime_c.so \
-  /home/cjson/ros2_lyrical/install/rosidl_buffer/lib/librosidl_buffer.so \
-  /home/cjson/ros2_lyrical/install/rcutils/lib/librcutils.so \
+  /opt/ros/lyrical/lib/libaction_msgs__rosidl_generator_c.so \
+  /opt/ros/lyrical/lib/libunique_identifier_msgs__rosidl_generator_c.so \
+  /opt/ros/lyrical/lib/libservice_msgs__rosidl_generator_c.so \
+  /opt/ros/lyrical/lib/libbuiltin_interfaces__rosidl_generator_c.so \
+  /opt/ros/lyrical/lib/librosidl_runtime_c.so \
+  /opt/ros/lyrical/lib/librosidl_buffer.so \
+  /opt/ros/lyrical/lib/librcutils.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libdl.a \
   /usr/lib/gcc/x86_64-linux-gnu/15/libatomic.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/libgcc.a \
@@ -107,19 +107,19 @@ CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_m
 
 CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_relative__type_support.c.o:
 
-/home/cjson/ros2_lyrical/install/action_msgs/lib/libaction_msgs__rosidl_generator_c.so:
+/opt/ros/lyrical/lib/libaction_msgs__rosidl_generator_c.so:
 
-/home/cjson/ros2_lyrical/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_generator_c.so:
+/opt/ros/lyrical/lib/libunique_identifier_msgs__rosidl_generator_c.so:
 
-/home/cjson/ros2_lyrical/install/service_msgs/lib/libservice_msgs__rosidl_generator_c.so:
+/opt/ros/lyrical/lib/libservice_msgs__rosidl_generator_c.so:
 
-/home/cjson/ros2_lyrical/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so:
+/opt/ros/lyrical/lib/libbuiltin_interfaces__rosidl_generator_c.so:
 
-/home/cjson/ros2_lyrical/install/rosidl_runtime_c/lib/librosidl_runtime_c.so:
+/opt/ros/lyrical/lib/librosidl_runtime_c.so:
 
-/home/cjson/ros2_lyrical/install/rosidl_buffer/lib/librosidl_buffer.so:
+/opt/ros/lyrical/lib/librosidl_buffer.so:
 
-/home/cjson/ros2_lyrical/install/rcutils/lib/librcutils.so:
+/opt/ros/lyrical/lib/librcutils.so:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libdl.a:
 

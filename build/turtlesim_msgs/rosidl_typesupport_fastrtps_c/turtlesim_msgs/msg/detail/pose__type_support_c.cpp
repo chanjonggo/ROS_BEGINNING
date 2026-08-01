@@ -443,120 +443,6 @@ static size_t _Pose__max_serialized_size(char & bounds_info)
   return ret_val;
 }
 
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool cdr_serialize_with_endpoint_turtlesim_msgs__msg__Pose(
-  const turtlesim_msgs__msg__Pose * ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  (void)ros_message;
-  (void)endpoint_info;
-  (void)serialization_context;
-  // Field name: x
-  {
-    cdr << ros_message->x;
-  }
-
-  // Field name: y
-  {
-    cdr << ros_message->y;
-  }
-
-  // Field name: theta
-  {
-    cdr << ros_message->theta;
-  }
-
-  // Field name: linear_velocity
-  {
-    cdr << ros_message->linear_velocity;
-  }
-
-  // Field name: angular_velocity
-  {
-    cdr << ros_message->angular_velocity;
-  }
-
-  return true;
-}
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool cdr_deserialize_with_endpoint_turtlesim_msgs__msg__Pose(
-  eprosima::fastcdr::Cdr & cdr,
-  turtlesim_msgs__msg__Pose * ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  (void)ros_message;
-  (void)endpoint_info;
-  (void)serialization_context;
-  // Field name: x
-  {
-    cdr >> ros_message->x;
-  }
-
-  // Field name: y
-  {
-    cdr >> ros_message->y;
-  }
-
-  // Field name: theta
-  {
-    cdr >> ros_message->theta;
-  }
-
-  // Field name: linear_velocity
-  {
-    cdr >> ros_message->linear_velocity;
-  }
-
-  // Field name: angular_velocity
-  {
-    cdr >> ros_message->angular_velocity;
-  }
-
-  return true;
-}  // NOLINT(readability/fn_size)
-
-static bool _Pose__cdr_serialize_with_endpoint(
-  const void * untyped_ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  if (!untyped_ros_message) {
-    fprintf(stderr, "ros message handle is null\n");
-    return false;
-  }
-  const turtlesim_msgs__msg__Pose * ros_message =
-    static_cast<const turtlesim_msgs__msg__Pose *>(untyped_ros_message);
-  return cdr_serialize_with_endpoint_turtlesim_msgs__msg__Pose(
-    ros_message, cdr, endpoint_info, serialization_context);
-}
-
-static bool _Pose__cdr_deserialize_with_endpoint(
-  eprosima::fastcdr::Cdr & cdr,
-  void * untyped_ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  if (!untyped_ros_message) {
-    fprintf(stderr, "ros message handle is null\n");
-    return false;
-  }
-  turtlesim_msgs__msg__Pose * ros_message =
-    static_cast<turtlesim_msgs__msg__Pose *>(untyped_ros_message);
-  return cdr_deserialize_with_endpoint_turtlesim_msgs__msg__Pose(
-    cdr, ros_message, endpoint_info, serialization_context);
-}
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool has_buffer_fields_turtlesim_msgs__msg__Pose()
-{
-  return
-    false;
-}
 
 static message_type_support_callbacks_t __callbacks_Pose = {
   "turtlesim_msgs::msg",
@@ -566,9 +452,9 @@ static message_type_support_callbacks_t __callbacks_Pose = {
   _Pose__get_serialized_size,
   _Pose__max_serialized_size,
   nullptr,
-  has_buffer_fields_turtlesim_msgs__msg__Pose(),
-  _Pose__cdr_serialize_with_endpoint,
-  _Pose__cdr_deserialize_with_endpoint
+  false,
+  nullptr,
+  nullptr
 };
 
 static rosidl_message_type_support_t _Pose__type_support = {

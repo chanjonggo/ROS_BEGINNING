@@ -55,9 +55,6 @@ size_t max_serialized_size_key_turtlesim_msgs__action__RotateAbsolute_Goal(
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool has_buffer_fields_turtlesim_msgs__action__RotateAbsolute_Goal();
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, turtlesim_msgs, action, RotateAbsolute_Goal)();
 
@@ -119,9 +116,6 @@ size_t max_serialized_size_key_turtlesim_msgs__action__RotateAbsolute_Result(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool has_buffer_fields_turtlesim_msgs__action__RotateAbsolute_Result();
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
 const rosidl_message_type_support_t *
@@ -187,9 +181,6 @@ size_t max_serialized_size_key_turtlesim_msgs__action__RotateAbsolute_Feedback(
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool has_buffer_fields_turtlesim_msgs__action__RotateAbsolute_Feedback();
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, turtlesim_msgs, action, RotateAbsolute_Feedback)();
 
@@ -251,9 +242,6 @@ size_t max_serialized_size_key_turtlesim_msgs__action__RotateAbsolute_SendGoal_R
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool has_buffer_fields_turtlesim_msgs__action__RotateAbsolute_SendGoal_Request();
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
 const rosidl_message_type_support_t *
@@ -319,9 +307,6 @@ size_t max_serialized_size_key_turtlesim_msgs__action__RotateAbsolute_SendGoal_R
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool has_buffer_fields_turtlesim_msgs__action__RotateAbsolute_SendGoal_Response();
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, turtlesim_msgs, action, RotateAbsolute_SendGoal_Response)();
 
@@ -383,9 +368,6 @@ size_t max_serialized_size_key_turtlesim_msgs__action__RotateAbsolute_SendGoal_E
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool has_buffer_fields_turtlesim_msgs__action__RotateAbsolute_SendGoal_Event();
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
 const rosidl_message_type_support_t *
@@ -470,9 +452,6 @@ size_t max_serialized_size_key_turtlesim_msgs__action__RotateAbsolute_GetResult_
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool has_buffer_fields_turtlesim_msgs__action__RotateAbsolute_GetResult_Request();
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, turtlesim_msgs, action, RotateAbsolute_GetResult_Request)();
 
@@ -536,9 +515,6 @@ size_t max_serialized_size_key_turtlesim_msgs__action__RotateAbsolute_GetResult_
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool has_buffer_fields_turtlesim_msgs__action__RotateAbsolute_GetResult_Response();
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, turtlesim_msgs, action, RotateAbsolute_GetResult_Response)();
 
@@ -600,9 +576,6 @@ size_t max_serialized_size_key_turtlesim_msgs__action__RotateAbsolute_GetResult_
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool has_buffer_fields_turtlesim_msgs__action__RotateAbsolute_GetResult_Event();
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
 const rosidl_message_type_support_t *
@@ -686,9 +659,6 @@ size_t max_serialized_size_key_turtlesim_msgs__action__RotateAbsolute_FeedbackMe
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
-bool has_buffer_fields_turtlesim_msgs__action__RotateAbsolute_FeedbackMessage();
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlesim_msgs
 const rosidl_message_type_support_t *

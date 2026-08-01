@@ -220,26 +220,25 @@ CMakeFiles/turtlesim_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtle
  /usr/include/python3.14/cpython/pyfpe.h \
  /usr/include/python3.14/cpython/tracemalloc.h \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdbool.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/visibility_control.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/message_type_support_struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_description__struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/individual_type_description__struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/string.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/primitives_sequence.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field__struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field_type__struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_source__struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_hash.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/allocator.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/macros.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/testing/fault_injection.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/visibility_control.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/visibility_control_macros.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/types/rcutils_ret.h \
- /home/cjson/ros2_lyrical/src/ros2/rcutils/include/rcutils/sha256.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_typesupport_interface/include/rosidl_typesupport_interface/macros.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/service_type_support_struct.h \
- /home/cjson/ros2_lyrical/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/action_type_support_struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/allocator.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/macros.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/types/rcutils_ret.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/visibility_control.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/visibility_control_macros.h \
+ /opt/ros/lyrical/include/rcutils/rcutils/sha256.h \
+ /opt/ros/lyrical/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+ /opt/ros/lyrical/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/msg/detail/color__type_support.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/msg/rosidl_generator_c__visibility_control.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/msg/detail/color__struct.h \
@@ -249,8 +248,8 @@ CMakeFiles/turtlesim_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtle
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/msg/detail/pose__functions.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/srv/detail/kill__type_support.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/srv/detail/kill__struct.h \
- /home/cjson/ros2_lyrical/build/service_msgs/rosidl_generator_c/service_msgs/msg/detail/service_event_info__struct.h \
- /home/cjson/ros2_lyrical/build/builtin_interfaces/rosidl_generator_c/builtin_interfaces/msg/detail/time__struct.h \
+ /opt/ros/lyrical/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
+ /opt/ros/lyrical/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/srv/detail/kill__functions.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/srv/detail/set_pen__type_support.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/srv/detail/set_pen__struct.h \
@@ -266,5 +265,5 @@ CMakeFiles/turtlesim_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtle
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_relative__functions.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__type_support.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__struct.h \
- /home/cjson/ros2_lyrical/build/unique_identifier_msgs/rosidl_generator_c/unique_identifier_msgs/msg/detail/uuid__struct.h \
+ /opt/ros/lyrical/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
  /home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__functions.h

@@ -6,17 +6,14 @@
 #include "turtlesim_msgs/msg/detail/pose__struct.hpp"
 
 #include <cstddef>
-#include <cstdio>
 #include <limits>
 #include <stdexcept>
 #include <string>
-#include "rcutils/logging_macros.h"
 #include "rosidl_typesupport_cpp/message_type_support.hpp"
 #include "rosidl_typesupport_fastrtps_cpp/identifier.hpp"
 #include "rosidl_typesupport_fastrtps_cpp/message_type_support.h"
 #include "rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp"
 #include "rosidl_typesupport_fastrtps_cpp/serialization_helpers.hpp"
-#include "turtlesim_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_c.h"
 #include "fastcdr/Cdr.h"
 
 
@@ -80,69 +77,6 @@ cdr_deserialize(
   return true;
 }  // NOLINT(readability/fn_size)
 
-// Endpoint-aware serialization. Always emitted so parent messages can recurse
-// through non-Buffer intermediate message types.
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-cdr_serialize_with_endpoint(
-  const turtlesim_msgs::msg::Pose & ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  (void)ros_message;
-  (void)endpoint_info;
-  (void)serialization_context;
-  try {
-    // Member: x
-    cdr << ros_message.x;
-    // Member: y
-    cdr << ros_message.y;
-    // Member: theta
-    cdr << ros_message.theta;
-    // Member: linear_velocity
-    cdr << ros_message.linear_velocity;
-    // Member: angular_velocity
-    cdr << ros_message.angular_velocity;
-  } catch (const std::exception & e) {
-    RCUTILS_LOG_ERROR_NAMED(
-      "turtlesim_msgs.typesupport_fastrtps_cpp",
-      "cdr_serialize_with_endpoint failed: %s", e.what());
-    return false;
-  }
-  return true;
-}
-
-// Endpoint-aware deserialization. Always emitted so parent messages can recurse
-// through non-Buffer intermediate message types.
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-cdr_deserialize_with_endpoint(
-  eprosima::fastcdr::Cdr & cdr,
-  turtlesim_msgs::msg::Pose & ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  (void)ros_message;
-  (void)endpoint_info;
-  (void)serialization_context;
-  // Member: x
-  cdr >> ros_message.x;
-
-  // Member: y
-  cdr >> ros_message.y;
-
-  // Member: theta
-  cdr >> ros_message.theta;
-
-  // Member: linear_velocity
-  cdr >> ros_message.linear_velocity;
-
-  // Member: angular_velocity
-  cdr >> ros_message.angular_velocity;
-
-  return true;
-}  // NOLINT(readability/fn_size)
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
@@ -461,38 +395,6 @@ static size_t _Pose__max_serialized_size(char & bounds_info)
   return ret_val;
 }
 
-// Endpoint-aware serialization wrapper
-static bool _Pose__cdr_serialize_with_endpoint(
-  const void * untyped_ros_message,
-  eprosima::fastcdr::Cdr & cdr,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  auto typed_message =
-    static_cast<const turtlesim_msgs::msg::Pose *>(
-    untyped_ros_message);
-  return cdr_serialize_with_endpoint(*typed_message, cdr, endpoint_info, serialization_context);
-}
-
-// Endpoint-aware deserialization wrapper
-static bool _Pose__cdr_deserialize_with_endpoint(
-  eprosima::fastcdr::Cdr & cdr,
-  void * untyped_ros_message,
-  const rmw_topic_endpoint_info_t & endpoint_info,
-  const rosidl_typesupport_fastrtps_cpp::BufferSerializationContext & serialization_context)
-{
-  auto typed_message =
-    static_cast<turtlesim_msgs::msg::Pose *>(
-    untyped_ros_message);
-  return cdr_deserialize_with_endpoint(cdr, *typed_message, endpoint_info, serialization_context);
-}
-
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-has_buffer_fields_Pose()
-{
-  return has_buffer_fields_turtlesim_msgs__msg__Pose();
-}
 
 static message_type_support_callbacks_t _Pose__callbacks = {
   "turtlesim_msgs::msg",
@@ -502,9 +404,9 @@ static message_type_support_callbacks_t _Pose__callbacks = {
   _Pose__get_serialized_size,
   _Pose__max_serialized_size,
   nullptr,
-  has_buffer_fields_Pose(),
-  _Pose__cdr_serialize_with_endpoint,
-  _Pose__cdr_deserialize_with_endpoint
+  false,
+  nullptr,
+  nullptr
 };
 
 static rosidl_message_type_support_t _Pose__handle = {

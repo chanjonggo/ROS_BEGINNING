@@ -78,10 +78,6 @@ max_serialized_size_key_Spawn_Request(
   bool & is_plain,
   size_t current_alignment);
 
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-has_buffer_fields_Spawn_Request();
-
 }  // namespace typesupport_fastrtps_cpp
 
 }  // namespace srv
@@ -180,10 +176,6 @@ max_serialized_size_key_Spawn_Response(
   bool & is_plain,
   size_t current_alignment);
 
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-has_buffer_fields_Spawn_Response();
-
 }  // namespace typesupport_fastrtps_cpp
 
 }  // namespace srv
@@ -281,10 +273,6 @@ max_serialized_size_key_Spawn_Event(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);
-
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_turtlesim_msgs
-has_buffer_fields_Spawn_Event();
 
 }  // namespace typesupport_fastrtps_cpp
 
