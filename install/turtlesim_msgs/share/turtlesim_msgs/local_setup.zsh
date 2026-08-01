@@ -1,1 +1,0 @@
-/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/ament_cmake_environment_hooks/local_setup.zsh

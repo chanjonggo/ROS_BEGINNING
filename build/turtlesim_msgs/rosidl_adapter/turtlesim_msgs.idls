@@ -1,8 +1,0 @@
-/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:action/RotateAbsolute.idl
-/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:msg/Color.idl
-/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:msg/Pose.idl
-/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:srv/Kill.idl
-/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:srv/SetPen.idl
-/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:srv/Spawn.idl
-/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:srv/TeleportAbsolute.idl
-/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:srv/TeleportRelative.idl

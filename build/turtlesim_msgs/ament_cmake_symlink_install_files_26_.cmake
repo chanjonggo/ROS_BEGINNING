@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/cjson/project/ROS_BEGINNING/src/ros_tutorials/turtlesim_msgs" FILES "/home/cjson/project/ROS_BEGINNING/src/ros_tutorials/turtlesim_msgs/srv/SetPen.srv" "DESTINATION" "share/turtlesim_msgs/srv")

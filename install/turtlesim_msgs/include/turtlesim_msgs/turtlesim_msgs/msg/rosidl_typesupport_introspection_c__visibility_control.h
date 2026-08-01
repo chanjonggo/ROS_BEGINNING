@@ -1,1 +1,0 @@
-/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_typesupport_introspection_c/turtlesim_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

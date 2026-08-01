@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/cjson/project/ROS_BEGINNING/src/ros_tutorials/turtlesim" FILES "/home/cjson/project/ROS_BEGINNING/src/ros_tutorials/turtlesim/package.xml" "DESTINATION" "share/turtlesim")

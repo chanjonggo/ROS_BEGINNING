@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/cjson/project/ROS_BEGINNING/src/ros_tutorials/turtlesim_msgs" FILES "/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/turtlesim_msgs/cmake")

@@ -1,1 +1,0 @@
-/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_typesupport_fastrtps_c/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h

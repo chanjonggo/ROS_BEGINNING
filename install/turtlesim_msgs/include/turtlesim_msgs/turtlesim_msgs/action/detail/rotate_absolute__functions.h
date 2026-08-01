@@ -1,1 +1,0 @@
-/home/cjson/project/ROS_BEGINNING/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__functions.h
